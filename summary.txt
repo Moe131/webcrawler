@@ -1,0 +1,61 @@
+The longest page in terms of words is at: https://www.stat.uci.edu/ics-and-engineering-schools-induct-six-into-2023-hall-of-fame with 1496 words
+
+The top 50 common words in the crawled URLs are :
+research : 779
+science : 650
+ics : 614
+data : 585
+s : 519
+statistics : 504
+view : 483
+uci : 451
+students : 433
+computer : 428
+student : 424
+graduate : 374
+learning : 370
+news : 367
+informatics : 365
+undergraduate : 321
+school : 275
+faculty : 260
+us : 231
+program : 216
+community : 215
+information : 200
+department : 197
+bren : 189
+machine : 189
+donald : 184
+page : 182
+opportunities : 172
+capstone : 172
+professor : 169
+programs : 164
+health : 156
+alumni : 156
+projects : 149
+sciences : 148
+seminar : 147
+academic : 144
+computing : 140
+future : 139
+honors : 136
+contact : 135
+says : 134
+spotlights : 133
+will : 132
+course : 131
+can : 131
+impact : 128
+software : 123
+industry : 121
+world : 120
+
+Total Unique URLs found : 136
+
+Number of subdomains in the ics.uci.edu domain : 2
+
+https://ics.uci.edu : 38
+
+https://www.ics.uci.edu : 2

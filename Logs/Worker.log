@@ -1,0 +1,281 @@
+2024-04-23 17:51:28,617 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 17:53:29,410 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 17:53:34,311 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache None.
+2024-04-23 17:53:35,790 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache None.
+2024-04-23 17:55:29,086 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 17:55:30,699 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache None.
+2024-04-23 17:55:32,188 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache None.
+2024-04-23 17:58:22,156 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 17:58:47,758 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 17:58:49,329 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache None.
+2024-04-23 17:58:50,743 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache None.
+2024-04-23 17:58:52,285 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/elena-agapie, status <200>, using cache None.
+2024-04-23 17:58:53,967 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/iftekhar-ahmed, status <200>, using cache None.
+2024-04-23 17:58:54,659 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha, status <200>, using cache None.
+2024-04-23 17:58:55,237 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu, status <200>, using cache None.
+2024-04-23 17:58:55,822 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/news.html, status <200>, using cache None.
+2024-04-23 17:58:56,369 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/papers.html, status <200>, using cache None.
+2024-04-23 17:58:56,993 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/people.html, status <200>, using cache None.
+2024-04-23 17:58:57,656 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#adviseresource, status <200>, using cache None.
+2024-04-23 17:58:58,308 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#contact, status <200>, using cache None.
+2024-04-23 17:58:58,946 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#cv, status <200>, using cache None.
+2024-04-23 17:58:59,607 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#awards, status <200>, using cache None.
+2024-04-23 18:01:34,256 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 18:01:36,012 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache None.
+2024-04-23 18:01:38,422 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache None.
+2024-04-23 18:01:40,131 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/elena-agapie, status <200>, using cache None.
+2024-04-23 18:01:41,962 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/iftekhar-ahmed, status <200>, using cache None.
+2024-04-23 18:01:42,809 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha, status <200>, using cache None.
+2024-04-23 18:01:43,381 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu, status <200>, using cache None.
+2024-04-23 18:01:43,926 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/news.html, status <200>, using cache None.
+2024-04-23 18:01:44,569 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/papers.html, status <200>, using cache None.
+2024-04-23 18:01:45,238 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/people.html, status <200>, using cache None.
+2024-04-23 18:01:45,928 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#adviseresource, status <200>, using cache None.
+2024-04-23 18:01:46,747 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#contact, status <200>, using cache None.
+2024-04-23 18:01:47,719 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#cv, status <200>, using cache None.
+2024-04-23 18:01:48,537 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#awards, status <200>, using cache None.
+2024-04-23 18:01:49,317 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#research, status <200>, using cache None.
+2024-04-23 18:01:50,083 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#researchgroup, status <200>, using cache None.
+2024-04-23 18:01:50,838 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha/#about, status <200>, using cache None.
+2024-04-23 18:01:52,442 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/rebecca-black, status <200>, using cache None.
+2024-04-23 18:01:54,171 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/geoffrey-bowker, status <200>, using cache None.
+2024-04-23 18:01:54,923 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~gbowker, status <200>, using cache None.
+2024-04-23 18:02:01,699 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache None.
+2024-04-23 18:02:03,290 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache None.
+2024-04-23 18:02:04,601 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache None.
+2024-04-23 18:02:17,410 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:19,024 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:20,243 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:21,748 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/elena-agapie, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:23,290 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/iftekhar-ahmed, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:24,005 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:24,565 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:25,101 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/news.html, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:25,652 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu/papers.html, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:52,489 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:54,113 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/brochure-tiles/what-we-build, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:55,478 - Worker-0 - INFO - Downloaded http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:57,046 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/elena-agapie, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:58,630 - Worker-0 - INFO - Downloaded https://www.informatics.uci.edu/explore/faculty-profiles/iftekhar-ahmed, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:59,346 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~iftekha, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:02:59,923 - Worker-0 - INFO - Downloaded http://stairs.ics.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:03,601 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:08,882 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:11,546 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:13,407 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-04-23 18:04:13,407 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:14,638 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-04-23 18:04:14,638 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:15,968 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-04-23 18:04:15,968 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:17,278 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-04-23 18:04:17,278 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-23 18:04:19,237 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200>, using cache ('styx.ics.uci.edu', 9007).
+2024-04-24 01:50:30,013 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 01:50:39,493 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache None.
+2024-04-24 01:50:43,512 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200>, using cache None.
+2024-04-24 01:50:46,580 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-04-24 01:50:46,581 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404>, using cache None.
+2024-04-24 01:50:48,697 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-04-24 01:50:48,698 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404>, using cache None.
+2024-04-24 01:50:50,624 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-04-24 01:50:50,624 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404>, using cache None.
+2024-04-24 01:50:52,867 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-04-24 01:50:52,867 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404>, using cache None.
+2024-04-24 01:50:55,650 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200>, using cache None.
+2024-04-24 01:50:58,604 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017, status <200>, using cache None.
+2024-04-24 01:51:01,491 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2017-2018, status <200>, using cache None.
+2024-04-24 01:51:04,034 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2018-2019, status <200>, using cache None.
+2024-04-24 01:51:05,515 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/JuliaPalaciosAbstract6-6-19, status <200>, using cache None.
+2024-04-24 01:51:06,829 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/TianZhengAbstract5-30-19, status <200>, using cache None.
+2024-04-24 01:51:08,139 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/StephanMandtAbstract5-16-19, status <200>, using cache None.
+2024-04-24 01:51:09,445 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/LorinCrawfordAbstract5-2-19, status <200>, using cache None.
+2024-04-24 01:51:10,738 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/XinTongAbstract4-25-19, status <200>, using cache None.
+2024-04-24 01:51:13,375 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2019-2020, status <200>, using cache None.
+2024-04-24 01:51:16,180 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2020-2021, status <200>, using cache None.
+2024-04-24 01:51:18,546 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2021-2022, status <200>, using cache None.
+2024-04-24 01:51:19,874 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/wp-content/uploads/Shujie-Ma-Abstract-5-5-22, status <200>, using cache None.
+2024-04-24 01:51:22,247 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2022-2023, status <200>, using cache None.
+2024-04-24 01:51:24,896 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-2023-2024, status <200>, using cache None.
+2024-04-24 01:51:28,236 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/slider/uci-launches-new-professional-program-master-of-data-science, status <200>, using cache None.
+2024-04-24 01:51:31,070 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-look-at-health-and-technology-trends-for-2021-and-beyond, status <200>, using cache None.
+2024-04-24 10:41:54,894 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 10:42:13,088 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache None.
+2024-04-24 10:42:23,623 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200>, using cache None.
+2024-04-24 10:42:26,642 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-04-24 10:42:26,642 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404>, using cache None.
+2024-04-24 10:42:28,839 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-04-24 10:42:28,839 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404>, using cache None.
+2024-04-24 10:42:31,123 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-04-24 10:42:31,124 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404>, using cache None.
+2024-04-24 10:42:32,997 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-04-24 10:42:32,998 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404>, using cache None.
+2024-04-24 10:42:35,775 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200>, using cache None.
+2024-04-24 10:42:50,795 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 10:42:53,332 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache None.
+2024-04-24 10:42:56,490 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200>, using cache None.
+2024-04-24 10:42:58,730 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-04-24 10:42:58,730 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404>, using cache None.
+2024-04-24 10:43:00,756 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-04-24 10:43:00,757 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404>, using cache None.
+2024-04-24 10:43:03,637 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-04-24 10:43:03,638 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404>, using cache None.
+2024-04-24 20:56:57,757 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 20:57:00,454 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache None.
+2024-04-24 20:57:03,643 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200>, using cache None.
+2024-04-24 21:00:53,685 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 21:00:56,614 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache None.
+2024-04-24 21:01:09,530 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 21:33:34,378 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 21:35:31,861 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 21:36:54,578 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200>, using cache None.
+2024-04-24 21:37:06,148 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200>, using cache None.
+2024-04-24 21:37:10,563 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200>, using cache None.
+2024-04-24 21:37:14,520 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-04-24 21:37:14,524 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404>, using cache None.
+2024-04-24 21:37:16,472 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-04-24 21:37:16,475 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404>, using cache None.
+2024-04-24 21:37:19,288 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-04-24 21:37:19,291 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404>, using cache None.
+2024-04-24 21:37:21,383 - Worker-0 - ERROR - Spacetime Response error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-04-24 21:37:21,389 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404>, using cache None.
+2024-04-24 21:37:24,601 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200>, using cache None.
+2024-04-24 21:37:27,757 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017, status <200>, using cache None.
+2024-04-24 21:37:30,908 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2017-2018, status <200>, using cache None.
+2024-04-24 21:37:33,767 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2018-2019, status <200>, using cache None.
+2024-04-24 21:37:35,664 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/JuliaPalaciosAbstract6-6-19, status <200>, using cache None.
+2024-04-24 21:37:37,359 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/TianZhengAbstract5-30-19, status <200>, using cache None.
+2024-04-24 21:37:38,738 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/StephanMandtAbstract5-16-19, status <200>, using cache None.
+2024-04-24 21:37:41,325 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/LorinCrawfordAbstract5-2-19, status <200>, using cache None.
+2024-04-24 21:37:43,753 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/XinTongAbstract4-25-19, status <200>, using cache None.
+2024-04-24 21:37:46,755 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2019-2020, status <200>, using cache None.
+2024-04-24 21:37:49,484 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2020-2021, status <200>, using cache None.
+2024-04-24 21:37:52,560 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2021-2022, status <200>, using cache None.
+2024-04-24 21:37:54,178 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/wp-content/uploads/Shujie-Ma-Abstract-5-5-22, status <200>, using cache None.
+2024-04-24 21:37:57,247 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2022-2023, status <200>, using cache None.
+2024-04-24 21:38:00,098 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-2023-2024, status <200>, using cache None.
+2024-04-24 21:38:03,298 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/slider/uci-launches-new-professional-program-master-of-data-science, status <200>, using cache None.
+2024-04-24 21:38:06,235 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-look-at-health-and-technology-trends-for-2021-and-beyond, status <200>, using cache None.
+2024-04-24 21:38:13,255 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/amstat-news-celebrating-women-in-statistics-2021-annie-qu-mentioned, status <200>, using cache None.
+2024-04-24 21:38:15,991 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/three-ics-students-receive-2021-nsf-graduate-research-fellowships, status <200>, using cache None.
+2024-04-24 21:38:19,375 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-hal-s-stern-is-named-uci-provost-and-executive-vice-chancellor, status <200>, using cache None.
+2024-04-24 21:38:22,293 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/exploring-and-strengthening-sports-stats-at-uci, status <200>, using cache None.
+2024-04-24 21:38:24,672 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-efforts-to-treat-covid-19-patients-chronicled-in-uc-health-medications-data-bin-nan-mentioned, status <200>, using cache None.
+2024-04-24 21:38:27,354 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/teach-access-recognizes-mine-dogucu-as-curriculum-development-awardee, status <200>, using cache None.
+2024-04-24 21:38:31,048 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-bold-decision-to-study-abroad-in-high-school-led-sirui-hu-to-uci-and-beyond-data-science-major, status <200>, using cache None.
+2024-04-24 21:38:33,638 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/capstone-program-showcases-growing-talent-of-ics-students, status <200>, using cache None.
+2024-04-24 21:38:45,308 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/the-resilience-of-the-class-of-2021, status <200>, using cache None.
+2024-04-24 21:38:47,786 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/qu-appointed-ims-program-secretary, status <200>, using cache None.
+2024-04-24 21:38:50,243 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/mine-dogucu-receives-young-investigator-award, status <200>, using cache None.
+2024-04-24 21:38:53,158 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/choc-teams-up-with-uci-to-offer-pediatric-capstone-project-in-data-science, status <200>, using cache None.
+2024-04-24 21:38:55,926 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/from-theory-to-practice-ucis-machine-learning-hackathon-delivers, status <200>, using cache None.
+2024-04-24 21:38:58,903 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-uci-led-study-finds-disparities-in-o-c-rates-of-covid-19-infection-mortality-vladimir-minin-mentioned, status <200>, using cache None.
+2024-04-24 21:39:01,767 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/lifetime-achievement-and-dinsdale-awards-double-the-accolades-for-professor-emerita-jessica-utts, status <200>, using cache None.
+2024-04-24 21:39:04,328 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/harnessing-the-data-revolution-ics-researchers-and-collaborators-receive-1-5m-data-science-grant, status <200>, using cache None.
+2024-04-24 21:39:06,603 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/stephan-mandt-and-collaborators-receive-3-5-million-to-study-machine-learning-for-climate-science, status <200>, using cache None.
+2024-04-24 21:39:09,027 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/elizabeth-lee-wins-data-science-for-social-good-award, status <200>, using cache None.
+2024-04-24 21:39:11,355 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/statistics-ph-d-student-tianyu-pan-wins-two-competitive-awards, status <200>, using cache None.
+2024-04-24 21:39:13,781 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/beyond-the-t-test-uci-professors-publish-new-statistical-guidance-for-neuroscience-research, status <200>, using cache None.
+2024-04-24 21:39:16,184 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/disney-research-supports-stephan-mandts-work-on-generative-modeling-with-50000-gift, status <200>, using cache None.
+2024-04-24 21:39:18,726 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/graduate-student-spotlight-mds-ambassador-adelynn-paik-shares-her-academic-professional-goals, status <200>, using cache None.
+2024-04-24 21:39:21,550 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/tech-trends-for-2022, status <200>, using cache None.
+2024-04-24 21:39:24,085 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/xu-receives-slds-student-paper-award, status <200>, using cache None.
+2024-04-24 21:39:26,352 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/4-ics-professors-among-7-uci-researchers-named-aaas-fellows, status <200>, using cache None.
+2024-04-24 21:39:31,025 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/black-history-month-sharing-resources-to-expand-diversity-in-tech, status <200>, using cache None.
+2024-04-24 21:39:33,495 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-announces-launch-of-institute-for-precision-health, status <200>, using cache None.
+2024-04-24 21:39:35,911 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/statistics-ph-d-student-isaac-goldstein-receives-la-verne-noyes-fellowship, status <200>, using cache None.
+2024-04-24 21:39:38,774 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/womens-history-month-resources-for-empowering-women-in-tech, status <200>, using cache None.
+2024-04-24 21:39:42,739 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/university-of-california-health-and-cdph-covid-modeling-consortium-awards-grant-funding-to-further-covid-19-data-research, status <200>, using cache None.
+2024-04-24 21:39:45,195 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-uci-researchers-receive-state-funding-to-study-pandemic-forecasting, status <200>, using cache None.
+2024-04-24 21:39:47,598 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-deep-learning-researchers-advance-theory-and-practice-of-data-compression, status <200>, using cache None.
+2024-04-24 21:39:50,064 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-ucis-graduate-programs-shine-in-u-s-news-world-report-rankings, status <200>, using cache None.
+2024-04-24 21:39:52,936 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/culture-of-collaboration-leads-to-cutting-edge-work-in-ai, status <200>, using cache None.
+2024-04-24 21:39:55,457 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/mds-student-ty-shao-aims-to-make-an-impact-in-healthcare, status <200>, using cache None.
+2024-04-24 21:39:58,986 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/ics-graduate-programs-in-statistics-and-computer-science-among-top-20-for-public-universities, status <200>, using cache None.
+2024-04-24 21:40:02,669 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/applications-open-for-new-uci-summer-biostatistics-institute-for-undergraduate-students, status <200>, using cache None.
+2024-04-24 21:40:06,204 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/dr-joni-ricks-oddie-applies-data-driven-lens-in-run-for-long-beach-city-council, status <200>, using cache None.
+2024-04-24 21:40:09,582 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/inaugural-ics-summer-academy-on-data-analytics-now-accepting-applications, status <200>, using cache None.
+2024-04-24 21:40:17,365 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/professors-utts-and-stern-honored-with-american-statistical-association-awards, status <200>, using cache None.
+2024-04-24 21:40:20,096 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/nsf-announces-2022-graduate-research-fellows, status <200>, using cache None.
+2024-04-24 21:40:22,402 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/qu-named-2024-ims-medallion-lecturer, status <200>, using cache None.
+2024-04-24 21:40:24,753 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/professors-berrocal-and-shahbaba-named-american-statistical-association-fellows, status <200>, using cache None.
+2024-04-24 21:40:27,387 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/dont-think-you-can-learn-bayesian-statistics-think-again-with-bayes-rules, status <200>, using cache None.
+2024-04-24 21:40:30,078 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/mds-program-hosts-panel-discussion-on-career-development-with-data-science-leaders, status <200>, using cache None.
+2024-04-24 21:40:32,689 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/qu-elected-international-statistical-institute-member, status <200>, using cache None.
+2024-04-24 21:40:35,169 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-researchers-aim-to-diversify-clinical-research-participation-with-3-7m-nih-grant, status <200>, using cache None.
+2024-04-24 21:40:38,654 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/ics-project-expo-strengthens-industry-engagement-and-showcases-student-talent, status <200>, using cache None.
+2024-04-24 21:40:41,105 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/faculty-and-staff-honored-at-annual-ics-awards-celebration, status <200>, using cache None.
+2024-04-24 21:40:43,562 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-ml-repository-highlights-four-impactful-projects-at-2022-ml-hackathon, status <200>, using cache None.
+2024-04-24 21:40:46,019 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/conference-experience-confirms-competitive-edge-of-ics-capstone-program, status <200>, using cache None.
+2024-04-24 21:40:48,396 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/daniel-gillen-named-chancellors-professor, status <200>, using cache None.
+2024-04-24 21:40:51,121 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/stephan-mandt-named-mercator-fellow, status <200>, using cache None.
+2024-04-24 21:40:53,964 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-in-top-10-on-fortunes-list-of-best-masters-in-data-science-programs, status <200>, using cache None.
+2024-04-24 21:40:56,650 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/professors-nan-and-gillen-receive-1-8m-grant-to-study-statistical-methods-for-alzheimers-research, status <200>, using cache None.
+2024-04-24 21:40:59,723 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/undergraduates-conduct-biostatistics-research-at-new-summer-institute-at-uci, status <200>, using cache None.
+2024-04-24 21:41:02,266 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/socal-data-science-program-off-to-a-strong-start, status <200>, using cache None.
+2024-04-24 21:41:05,102 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/new-faculty-spotlight-statistics-professor-hengrui-cai-strives-for-real-world-impact, status <200>, using cache None.
+2024-04-24 21:41:07,446 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/ucis-master-of-data-science-to-launch-part-time-program-in-fall-2023, status <200>, using cache None.
+2024-04-24 21:41:09,809 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/ics-establishes-first-ever-scholarship-for-military-connected-students-through-master-of-data-science-program, status <200>, using cache None.
+2024-04-24 21:41:12,696 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/software-engineering-and-data-science-professional-master-programs-celebrate-capstone-successes, status <200>, using cache None.
+2024-04-24 21:41:15,115 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/xu-receives-asa-nonparametric-statistics-section-student-paper-award, status <200>, using cache None.
+2024-04-24 21:41:17,845 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uc-irvine-alumni-paul-and-jo-butterworth-pledge-35-5-million-to-donald-bren-school, status <200>, using cache None.
+2024-04-24 21:41:20,693 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/staff-spotlight-dr-joni-ricks-oddie-joins-long-beach-city-council-with-family-and-career-proudly-in-tow, status <200>, using cache None.
+2024-04-24 21:41:23,524 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/student-creativity-and-innovation-take-center-stage-at-hack-at-uci-2023, status <200>, using cache None.
+2024-04-24 21:41:27,290 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/mds-program-and-socal-rug-bring-together-industry-experts-to-discuss-mlops, status <200>, using cache None.
+2024-04-24 21:41:30,363 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/faculty-spotlight-veronica-berrocal-speaks-to-the-impact-of-statistics, status <200>, using cache None.
+2024-04-24 21:41:33,154 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/student-spotlight-dance-and-data-science-double-major-emily-truong-moves-to-the-rhythm-of-algorithms, status <200>, using cache None.
+2024-04-24 21:41:35,682 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-disparate-double-major, status <200>, using cache None.
+2024-04-24 21:41:38,192 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/mds-program-explores-impact-of-data-in-politics-with-shanthi-pierce, status <200>, using cache None.
+2024-04-24 21:41:41,429 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/datauci-embarks-on-data-science-adventures-in-inaugural-datathon, status <200>, using cache None.
+2024-04-24 21:41:43,755 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/ph-d-student-christina-magana-ramirez-awarded-nsf-graduate-research-fellowship, status <200>, using cache None.
+2024-04-24 21:41:46,809 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/ics-and-engineering-schools-induct-six-into-2023-hall-of-fame, status <200>, using cache None.
+2024-04-24 21:41:49,188 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/socal-data-science-program-to-expand-its-reach-with-1-3m-grant, status <200>, using cache None.
+2024-04-24 21:41:51,777 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/faculty-and-staff-honored-at-2023-ics-awards-celebration, status <200>, using cache None.
+2024-04-24 21:41:55,021 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/2023-ics-commencement-centering-humanity, status <200>, using cache None.
+2024-04-24 21:41:57,856 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/third-annual-ics-project-expo-supporting-the-tech-talent-pipeline, status <200>, using cache None.
+2024-04-24 21:42:00,855 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-news-uci-researchers-receive-600000-grant-from-the-cyrus-tang-foundation-re-zhaoxia-yu, status <200>, using cache None.
+2024-04-24 21:42:03,784 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/summer-school-for-stem-faculty-a-boot-camp-in-bayesian-thinking, status <200>, using cache None.
+2024-04-24 21:42:06,800 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/high-school-students-perform-real-world-analytics-during-data-science-for-all-program, status <200>, using cache None.
+2024-04-24 21:42:10,217 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/mandt-appointed-program-chair-for-aistats-2024, status <200>, using cache None.
+2024-04-24 21:42:11,317 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/bayes-bats/materials.html, status <200>, using cache None.
+2024-04-24 21:42:12,755 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/bayes-bats, status <200>, using cache None.
+2024-04-24 21:42:14,441 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/ugrad/honors/index.php, status <200>, using cache None.
+2024-04-24 21:42:19,348 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/accessibility-statement, status <200>, using cache None.
+2024-04-24 21:42:21,514 - Worker-0 - INFO - Downloaded https://ics.uci.edu/accessibility-statement, status <200>, using cache None.
+2024-04-24 21:42:23,652 - Worker-0 - INFO - Downloaded https://ics.uci.edu/research-areas, status <200>, using cache None.
+2024-04-24 21:42:26,658 - Worker-0 - INFO - Downloaded https://ics.uci.edu/research-areas/sustainability-and-computing, status <200>, using cache None.
+2024-04-24 21:42:28,869 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics, status <200>, using cache None.
+2024-04-24 21:42:31,338 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/3, status <200>, using cache None.
+2024-04-24 21:42:34,706 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/5, status <200>, using cache None.
+2024-04-24 21:42:37,513 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/7, status <200>, using cache None.
+2024-04-24 21:42:40,563 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/9, status <200>, using cache None.
+2024-04-24 21:42:43,365 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/11, status <200>, using cache None.
+2024-04-24 21:42:46,375 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/13, status <200>, using cache None.
+2024-04-24 21:42:49,087 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/15, status <200>, using cache None.
+2024-04-24 21:42:52,165 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/17, status <200>, using cache None.
+2024-04-24 21:42:55,229 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/19, status <200>, using cache None.
+2024-04-24 21:42:58,299 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/21, status <200>, using cache None.
+2024-04-24 21:43:01,374 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/23, status <200>, using cache None.
+2024-04-24 21:43:04,752 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/25, status <200>, using cache None.
+2024-04-24 21:43:07,821 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/27, status <200>, using cache None.
+2024-04-24 21:43:16,253 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/27, status <200> 
+2024-04-24 21:43:19,196 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/29, status <200> 
+2024-04-24 21:43:22,522 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/31, status <200> 
+2024-04-24 21:43:25,641 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/33, status <200> 
+2024-04-24 21:43:28,548 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/35, status <200> 
+2024-04-24 21:43:31,277 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/37, status <200> 
+2024-04-24 21:45:07,172 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/39, status <200> 
+2024-04-24 21:45:10,403 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/41, status <200> 
+2024-04-24 21:45:36,718 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/43, status <200> 
+2024-04-24 21:45:39,420 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/45, status <200> 
+2024-04-24 21:45:42,395 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/47, status <200> 
+2024-04-24 21:45:45,340 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/49, status <200> 
+2024-04-24 21:45:53,402 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/51, status <200> 
+2024-04-24 21:45:56,484 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/53, status <200> 
+2024-04-24 21:46:00,472 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/55, status <200> 
+2024-04-24 21:46:03,653 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/57, status <200> 
+2024-04-24 21:46:06,920 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/59, status <200> 
+2024-04-24 21:46:10,045 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/61, status <200> 
+2024-04-24 21:46:13,461 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/informatics/page/62, status <200> 
+2024-04-24 21:46:16,826 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2014/06/04/gillian-hayes-first-to-hold-new-kleist-informatics-chair, status <200> 
+2024-04-24 21:46:19,365 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/17/retaining-cs-majors-predictive-modeling-and-targeted-academic-interventions, status <200> 
