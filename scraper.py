@@ -107,20 +107,19 @@ def find_word_frquency(url, resp) ->  dict :
     if resp.status != 200:
         return dict() 
     
-    # check if the page has low text value
-    if lowTextValue(resp.raw_response.content):
-        return dict()
-    
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
     bodyContent = soup.find("body")
     listOfWords = list()
-
 
     # check if url has body
     if bodyContent :
         bodyText = bodyContent.get_text()
     else:
         bodyText = ""
+
+     # check if the page has low text value
+    if lowTextValue(bodyText):
+        return dict()
     
     # if the file size is too large do not index it and return empty dict
     MAXBODYSIZE = 10000
@@ -223,21 +222,13 @@ def too_deep(url):
         return True
     return False
 
-def lowTextValue(pageInfo):
+def lowTextValue(bodyContent):
     """ Checks for pages that have low information value. """
-    soup = BeautifulSoup(pageInfo, "html.parser")
-    bodyContent = soup.find("body")
-    listOfWords = list()
-    # check if url has body
-    if bodyContent :
-        text = bodyContent.get_text()
-    else:
-        text = ""
-    errors = ["Error", "Whoops", "having trouble locating"]
+    errors = ["Error", "Whoops", "having trouble locating" , "404"]
     for word in errors:
-        if word.lower() in text.lower():
+        if word.lower() in bodyContent.lower():
             return True
-    if len(text.split()) < 700:
+    if len(bodyContent.split()) < 500:
         return True
     return False
 

@@ -1,61 +1,61 @@
 The longest page in terms of words is at: https://www.stat.uci.edu/ics-and-engineering-schools-induct-six-into-2023-hall-of-fame with 1496 words
 
 The top 50 common words in the crawled URLs are :
-research : 779
-science : 650
-ics : 614
-data : 585
-s : 519
-statistics : 504
-view : 483
-uci : 451
-students : 433
-computer : 428
-student : 424
-graduate : 374
-learning : 370
-news : 367
-informatics : 365
-undergraduate : 321
-school : 275
-faculty : 260
-us : 231
-program : 216
-community : 215
-information : 200
-department : 197
-bren : 189
-machine : 189
-donald : 184
-page : 182
-opportunities : 172
-capstone : 172
-professor : 169
-programs : 164
-health : 156
-alumni : 156
-projects : 149
-sciences : 148
-seminar : 147
-academic : 144
-computing : 140
-future : 139
-honors : 136
-contact : 135
-says : 134
-spotlights : 133
-will : 132
+research : 825
+science : 699
+ics : 647
+data : 601
+s : 536
+view : 515
+statistics : 514
+uci : 490
+computer : 467
+student : 458
+students : 447
+graduate : 396
+learning : 392
+news : 389
+informatics : 374
+undergraduate : 342
+school : 286
+faculty : 269
+us : 249
+community : 232
+program : 222
+information : 206
+machine : 202
+department : 199
+bren : 195
+page : 191
+donald : 190
+opportunities : 178
+capstone : 178
+programs : 176
+professor : 174
+alumni : 168
+health : 162
+academic : 155
+projects : 155
+computing : 154
+sciences : 152
+seminar : 150
+future : 149
+honors : 148
+spotlights : 145
+contact : 139
+says : 135
+can : 134
+impact : 134
+will : 133
 course : 131
-can : 131
-impact : 128
-software : 123
-industry : 121
-world : 120
+2024 : 130
+software : 129
+industry : 127
 
-Total Unique URLs found : 136
+Total Unique URLs found : 147
 
 Number of subdomains in the ics.uci.edu domain : 2
 
-https://ics.uci.edu : 38
+https://ics.uci.edu : 43
 
-https://www.ics.uci.edu : 2
+https://www.ics.uci.edu : 8
