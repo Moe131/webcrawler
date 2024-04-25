@@ -1,61 +1,61 @@
-The longest page in terms of words is at: https://www.stat.uci.edu/ics-and-engineering-schools-induct-six-into-2023-hall-of-fame with 1496 words
+The longest page in terms of words is at: https://www.stat.uci.edu/student-creativity-and-innovation-take-center-stage-at-hack-at-uci-2023 with 970 words
 
 The top 50 common words in the crawled URLs are :
-research : 825
-science : 699
-ics : 647
-data : 601
-s : 536
-view : 515
-statistics : 514
-uci : 490
-computer : 467
-student : 458
-students : 447
-graduate : 396
-learning : 392
-news : 389
-informatics : 374
-undergraduate : 342
-school : 286
-faculty : 269
-us : 249
-community : 232
-program : 222
-information : 206
-machine : 202
-department : 199
-bren : 195
-page : 191
-donald : 190
-opportunities : 178
-capstone : 178
-programs : 176
-professor : 174
-alumni : 168
-health : 162
-academic : 155
-projects : 155
-computing : 154
-sciences : 152
-seminar : 150
-future : 149
-honors : 148
-spotlights : 145
-contact : 139
-says : 135
-can : 134
-impact : 134
-will : 133
-course : 131
-2024 : 130
-software : 129
-industry : 127
+research : 1075
+science : 903
+ics : 805
+data : 769
+statistics : 696
+view : 660
+uci : 613
+student : 605
+computer : 585
+students : 537
+graduate : 530
+news : 508
+learning : 499
+informatics : 484
+undergraduate : 436
+school : 370
+the : 355
+faculty : 349
+us : 320
+community : 296
+program : 281
+information : 271
+machine : 267
+bren : 266
+department : 261
+donald : 255
+page : 241
+opportunities : 236
+programs : 230
+alumni : 214
+professor : 205
+capstone : 203
+health : 202
+seminar : 198
+academic : 198
+sciences : 195
+future : 194
+computing : 193
+projects : 189
+spotlights : 189
+honors : 185
+contact : 184
+2024 : 175
+can : 174
+says : 173
+will : 161
+impact : 160
+course : 159
+experience : 158
+policy : 156
 
-Total Unique URLs found : 147
+Total Unique URLs found : 151
 
 Number of subdomains in the ics.uci.edu domain : 2
 
-https://ics.uci.edu : 43
+https://ics.uci.edu : 46
 
 https://www.ics.uci.edu : 8

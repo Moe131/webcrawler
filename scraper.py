@@ -124,12 +124,13 @@ def find_word_frquency(url, resp) ->  dict :
     # if the file size is too large do not index it and return empty dict
     MAXBODYSIZE = 10000
     if len(bodyText) <= MAXBODYSIZE:
-        listOfWords = tokenize(bodyText)
+        tokenFreq = tokenize(bodyText)
         #Check if longest page
         global longest_page
-        if (len(listOfWords) > longest_page[1]):
-            longest_page = (url, len(listOfWords))
-        return computeWordFrequencies(listOfWords)
+        pageLength = sum(tokenFreq.values())
+        if pageLength > longest_page[1]:
+            longest_page = (url, pageLength)
+        return tokenFreq
     return dict()
 
 def createSummaryFile():
