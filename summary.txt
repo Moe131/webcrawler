@@ -1,61 +1,61 @@
-The longest page in terms of words is at: https://www.stat.uci.edu/student-creativity-and-innovation-take-center-stage-at-hack-at-uci-2023 with 970 words
+The longest page in terms of words is at: https://ics.uci.edu/2021/06/22/ics-capstone-program with 1273 words
 
 The top 50 common words in the crawled URLs are :
-research : 1075
-science : 903
-ics : 805
-data : 769
-statistics : 696
-view : 660
-uci : 613
-student : 605
-computer : 585
-students : 537
-graduate : 530
-news : 508
-learning : 499
-informatics : 484
-undergraduate : 436
-school : 370
-the : 355
-faculty : 349
-us : 320
-community : 296
-program : 281
-information : 271
-machine : 267
-bren : 266
-department : 261
-donald : 255
-page : 241
-opportunities : 236
-programs : 230
-alumni : 214
-professor : 205
-capstone : 203
-health : 202
-seminar : 198
-academic : 198
-sciences : 195
-future : 194
-computing : 193
-projects : 189
-spotlights : 189
-honors : 185
-contact : 184
-2024 : 175
-can : 174
-says : 173
-will : 161
-impact : 160
-course : 159
-experience : 158
-policy : 156
+research : 1310
+view : 1224
+ics : 1133
+science : 970
+informatics : 890
+student : 818
+learning : 666
+computer : 665
+graduate : 640
+undergraduate : 612
+uci : 558
+us : 515
+statistics : 486
+data : 467
+news : 449
+community : 444
+page : 442
+alumni : 371
+spotlights : 365
+students : 359
+machine : 357
+programs : 352
+faculty : 342
+computing : 303
+honors : 285
+future : 278
+academic : 277
+software : 261
+events : 258
+corporate : 252
+systems : 248
+follow : 246
+involved : 245
+tech : 234
+awards : 228
+professor : 224
+health : 220
+capstone : 215
+connected : 203
+staff : 202
+school : 202
+cybersecurity : 202
+projects : 196
+accessible : 193
+impact : 192
+your : 190
+experience : 187
+donald : 185
+bren : 185
+hall : 185
 
-Total Unique URLs found : 151
+Total Unique URLs found : 82
 
 Number of subdomains in the ics.uci.edu domain : 2
 
-https://ics.uci.edu : 46
+https://ics.uci.edu : 78
 
-https://www.ics.uci.edu : 8
+https://www.ics.uci.edu : 3

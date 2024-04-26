@@ -107,6 +107,11 @@ def find_word_frquency(url, resp) ->  dict :
     if resp.status != 200:
         return dict() 
     
+    # if the file size is too large do not index it and return empty dict ( more than 5MB)
+    MAXBODYSIZE = 5000000
+    if len(resp.raw_response.content) > MAXBODYSIZE:
+            return dict()
+    
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
     bodyContent = soup.find("body")
     listOfWords = list()
@@ -116,22 +121,19 @@ def find_word_frquency(url, resp) ->  dict :
         bodyText = bodyContent.get_text()
     else:
         bodyText = ""
-
-     # check if the page has low text value
+    
+    # check if the page has low text value
     if lowTextValue(bodyText):
         return dict()
-    
-    # if the file size is too large do not index it and return empty dict
-    MAXBODYSIZE = 10000
-    if len(bodyText) <= MAXBODYSIZE:
-        tokenFreq = tokenize(bodyText)
-        #Check if longest page
-        global longest_page
-        pageLength = sum(tokenFreq.values())
-        if pageLength > longest_page[1]:
-            longest_page = (url, pageLength)
-        return tokenFreq
-    return dict()
+
+    tokenFreq = tokenize(bodyText)
+    #Check if longest page
+    global longest_page
+    pageLength = sum(tokenFreq.values())
+    if pageLength > longest_page[1]:
+        longest_page = (url, pageLength)
+    return tokenFreq
+
 
 def createSummaryFile():
     """ Creates summary.txt with the numer of unique URLs and the
@@ -223,13 +225,19 @@ def too_deep(url):
         return True
     return False
 
-def lowTextValue(bodyContent):
+def lowTextValue(text):
     """ Checks for pages that have low information value. """
-    errors = ["Error", "Whoops", "having trouble locating" , "404"]
+    errors = ["Error", "Whoops", "having trouble locating"]
+    isError = False
+    wordCount = len(text.split())
     for word in errors:
-        if word.lower() in bodyContent.lower():
-            return True
-    if len(bodyContent.split()) < 500:
+        if word.lower() in text.lower():
+            IsError = True
+    # Page has error message content
+    if wordCount < 500 and isError :
+        return True
+    # Page has no content
+    if wordCount < 50 :
         return True
     return False
 
