@@ -26,9 +26,9 @@ def scraper(url, resp):
     content_type = resp.raw_response.headers.get('Content-Type')
     if content_type and not 'text/html' in content_type: 
         return list()
-    count_if_unique(url)
-    links = extract_next_links(url, resp)
-    add_words(find_word_frquency(url, resp))
+    count_if_unique(resp.url)
+    links = extract_next_links(resp.url, resp)
+    add_words(find_word_frquency(resp.url, resp))
     createSummaryFile()  # later we should we move this to the end of launch.py
     save_data()
     return [link for link in links if is_valid(link)]

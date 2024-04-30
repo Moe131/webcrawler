@@ -1,61 +1,61 @@
 The longest page in terms of words is at: https://ics.uci.edu/2021/06/22/ics-capstone-program with 1273 words
 
 The top 50 common words in the crawled URLs are :
-research : 1310
-view : 1224
-ics : 1133
-science : 970
-informatics : 890
-student : 818
-learning : 666
-computer : 665
-graduate : 640
-undergraduate : 612
-uci : 558
-us : 515
-statistics : 486
-data : 467
-news : 449
-community : 444
-page : 442
-alumni : 371
-spotlights : 365
-students : 359
-machine : 357
-programs : 352
-faculty : 342
-computing : 303
-honors : 285
-future : 278
-academic : 277
-software : 261
-events : 258
-corporate : 252
-systems : 248
-follow : 246
-involved : 245
-tech : 234
-awards : 228
-professor : 224
-health : 220
-capstone : 215
-connected : 203
-staff : 202
-school : 202
-cybersecurity : 202
-projects : 196
-accessible : 193
-impact : 192
-your : 190
-experience : 187
-donald : 185
-bren : 185
-hall : 185
+view : 896
+research : 888
+ics : 851
+science : 719
+student : 592
+informatics : 564
+computer : 516
+learning : 490
+graduate : 466
+uci : 466
+undergraduate : 447
+statistics : 409
+us : 376
+data : 334
+news : 329
+page : 322
+community : 310
+machine : 261
+alumni : 257
+programs : 256
+students : 255
+faculty : 248
+spotlights : 240
+computing : 211
+honors : 205
+academic : 200
+future : 199
+events : 188
+systems : 187
+corporate : 183
+software : 179
+professor : 177
+follow : 177
+involved : 176
+tech : 169
+edu : 169
+awards : 166
+capstone : 163
+staff : 155
+connected : 151
+949 : 150
+824 : 148
+projects : 147
+health : 145
+accessible : 144
+school : 141
+2018 : 140
+impact : 138
+get : 137
+donald : 136
 
-Total Unique URLs found : 82
+Total Unique URLs found : 59
 
 Number of subdomains in the ics.uci.edu domain : 2
 
-https://ics.uci.edu : 78
+https://ics.uci.edu : 55
 
 https://www.ics.uci.edu : 3
