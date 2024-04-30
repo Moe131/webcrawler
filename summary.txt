@@ -1,61 +1,69 @@
-The longest page in terms of words is at: https://ics.uci.edu/2021/06/22/ics-capstone-program with 1273 words
+The longest page in terms of words is at: https://ics.uci.edu/academics/undergraduate-programs/majors-minors/undergraduate-student-policies/#ElectronicComputingPolicies with 2663 words
 
 The top 50 common words in the crawled URLs are :
-view : 896
-research : 888
-ics : 851
-science : 719
-student : 592
-informatics : 564
-computer : 516
-learning : 490
-graduate : 466
-uci : 466
-undergraduate : 447
-statistics : 409
-us : 376
-data : 334
-news : 329
-page : 322
-community : 310
-machine : 261
-alumni : 257
-programs : 256
-students : 255
-faculty : 248
-spotlights : 240
-computing : 211
-honors : 205
-academic : 200
-future : 199
-events : 188
-systems : 187
-corporate : 183
-software : 179
-professor : 177
-follow : 177
-involved : 176
-tech : 169
-edu : 169
-awards : 166
-capstone : 163
-staff : 155
-connected : 151
-949 : 150
-824 : 148
-projects : 147
-health : 145
-accessible : 144
-school : 141
-2018 : 140
-impact : 138
-get : 137
-donald : 136
+ics : 2863
+research : 2321
+view : 1851
+science : 1729
+student : 1567
+informatics : 1418
+uci : 1241
+computer : 1233
+learning : 1190
+graduate : 1145
+undergraduate : 1129
+us : 938
+news : 829
+community : 821
+data : 815
+students : 748
+alumni : 745
+statistics : 729
+page : 672
+spotlights : 648
+machine : 630
+programs : 623
+academic : 622
+faculty : 614
+computing : 607
+future : 523
+honors : 522
+events : 467
+edu : 455
+follow : 452
+school : 448
+corporate : 447
+involved : 447
+software : 445
+tech : 435
+systems : 431
+the : 425
+staff : 425
+2024 : 420
+awards : 407
+health : 395
+bren : 378
+capstone : 362
+experience : 357
+impact : 353
+information : 353
+your : 351
+connected : 351
+lab : 351
+hall : 348
 
-Total Unique URLs found : 59
+Total Unique URLs found : 201
 
-Number of subdomains in the ics.uci.edu domain : 2
+Number of subdomains in the ics.uci.edu domain : 6
 
-https://ics.uci.edu : 55
+https://evoke.ics.uci.edu : 3
 
-https://www.ics.uci.edu : 3
+https://ics.uci.edu : 150
+
+https://onboarding.ics.uci.edu : 3
+
+https://swiki.ics.uci.edu : 37
+
+https://ugradforms.ics.uci.edu : 1
+
+https://wiki.ics.uci.edu : 12

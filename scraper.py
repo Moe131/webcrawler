@@ -164,6 +164,8 @@ def add_words(dictionary):
 
 
 def count_if_unique(url):
+    if "www." in url:
+        url = url.replace("www.", "")
     parsed = urlparse(url)
     urldeletedFragment = parsed._replace(fragment = "").geturl() 
     uniqueURLs.add(urldeletedFragment)
