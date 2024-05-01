@@ -1,58 +1,58 @@
 The longest page in terms of words is at: https://ics.uci.edu/academics/undergraduate-programs/majors-minors/undergraduate-student-policies with 2663 words
 
 The top 50 common words in the crawled URLs are :
-ics : 4274
-media : 2943
+ics : 4280
+media : 2964
 2021 : 2293
 view : 2024
-files : 1963
+files : 1977
 research : 1925
-show : 1905
-virtual : 1898
-environments : 1855
-hans : 1768
-wiki : 1716
+show : 1917
+virtual : 1903
+environments : 1860
+hans : 1774
+wiki : 1727
 15 : 1710
-search : 1690
+search : 1702
 uci : 1619
 jupyterhub : 1605
-page : 1549
+page : 1555
 22 : 1509
-services : 1451
-projects : 1401
-software : 1390
-support : 1350
+services : 1456
+projects : 1406
+software : 1395
+support : 1356
 science : 1298
 kb : 1240
 jpg : 1239
 student : 1222
 informatics : 1221
-11 : 1127
-upload : 1123
-recent : 1104
+11 : 1132
+upload : 1130
+recent : 1110
 png : 1071
-revisions : 1056
-10 : 1016
-data : 1013
+revisions : 1062
+10 : 1017
+data : 1014
 edu : 1010
-content : 983
-skip : 978
-in : 971
-2019 : 971
-file : 956
-commands : 931
+2019 : 997
+content : 989
+skip : 984
+in : 977
+file : 963
+commands : 936
 learning : 914
 computer : 908
-accounts : 899
-top : 897
-linux : 891
+accounts : 904
+top : 903
+linux : 896
+group : 891
 graduate : 890
-group : 886
-last : 881
+last : 887
 undergraduate : 877
 01 : 871
 
-Total Unique URLs found : 2633
+Total Unique URLs found : 2640
 
 Number of subdomains in the ics.uci.edu domain : 3
 
@@ -60,4 +60,4 @@ https://evoke.ics.uci.edu : 3
 
 https://ics.uci.edu : 116
 
-https://wiki.ics.uci.edu : 2521
+https://wiki.ics.uci.edu : 2529

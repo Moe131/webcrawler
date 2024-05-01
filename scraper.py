@@ -103,6 +103,8 @@ def is_valid(url):
 
 
 def is_duplicate(tokenFreq):
+    """ Checks if a text represented as dictionary of words with their frequencies
+        is exact or near duplicate of already scraped websites. """
     # store the hash and check if its exat duplicate
     simhash = simHash(tokenFreq)
     if simhash in sim_hashes: # exact dupliacte
@@ -110,7 +112,6 @@ def is_duplicate(tokenFreq):
     
     for sh in sim_hashes:
         if are_near_duplicate(sh, simhash):
-            print("near duplicate")
             return True
     # store the hash if its not already stored
     sim_hashes.add(simhash)
@@ -147,7 +148,6 @@ def read_content(url, soup) ->  dict :
 
     #if duplicate return 
     if is_duplicate(tokenFreq):
-        print( " is duplicate")
         return dict()
     
     #Check if longest page
