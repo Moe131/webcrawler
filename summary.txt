@@ -1,59 +1,59 @@
-The longest page in terms of words is at: https://ics.uci.edu/people/page/3 with 921 words
+The longest page in terms of words is at: https://ics.uci.edu/alumni/ics-advisory-board with 653 words
 
 The top 50 common words in the crawled URLs are :
-ics : 203
-research : 193
-view : 161
-uci : 157
-science : 142
-edu : 138
-computer : 130
-student : 121
-learning : 111
-undergraduate : 104
-graduate : 102
-informatics : 97
-949 : 94
-824 : 92
-us : 85
-dbh : 74
-statistics : 73
-professor : 68
-systems : 67
-data : 62
-faculty : 60
-community : 59
-computing : 59
-machine : 59
-programs : 55
-alumni : 55
-spotlights : 48
-academic : 46
-events : 45
-page : 45
-software : 43
-news : 42
-staff : 42
-future : 41
-accessible : 40
-health : 39
-corporate : 39
-people : 38
-honors : 38
-genomics : 37
-follow : 36
-involved : 35
-contact : 34
-students : 34
-hall : 34
-tech : 33
-ph : 32
-connected : 31
-hpi : 30
-information : 30
+ics : 37
+research : 34
+student : 21
+undergraduate : 21
+us : 21
+graduate : 20
+uci : 19
+science : 16
+learning : 16
+news : 15
+accessibility : 14
+community : 12
+programs : 12
+spotlights : 12
+computer : 11
+honors : 11
+academic : 11
+events : 11
+2024 : 11
+edu : 11
+alumni : 10
+series : 10
+data : 10
+faculty : 9
+seminar : 9
+systems : 9
+donald : 9
+bren : 9
+follow : 9
+ceo : 9
+contact : 8
+cs : 8
+corporate : 8
+computing : 8
+hall : 8
+machine : 8
+accessible : 8
+software : 8
+vp : 8
+content : 7
+students : 7
+development : 7
+future : 7
+involved : 7
+leadership : 7
+council : 7
+awards : 6
+admissions : 6
+advising : 6
+health : 6
 
-Total Unique URLs found : 12
+Total Unique URLs found : 3
 
 Number of subdomains in the ics.uci.edu domain : 1
 
-https://ics.uci.edu : 12
+https://ics.uci.edu : 2

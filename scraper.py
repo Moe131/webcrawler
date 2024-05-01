@@ -18,6 +18,8 @@ longest_page = ("",0)
 ICS_subdomains = {}
 # sim hashes of content to detect exact/near duplicate
 sim_hashes = set()
+# Dictionary of number of times a URL without query has been crawled to  avoid traps
+URLCrawlsCount = dict()
 
 
 def scraper(url, resp):
@@ -28,7 +30,7 @@ def scraper(url, resp):
     content_type = resp.raw_response.headers.get('Content-Type')
     if content_type and not 'text/html' in content_type: 
         return list()
-    count_if_unique(url)
+    count(url)
     links = extract_next_links(url, resp)
     createSummaryFile()  # later we should we move this to the end of launch.py
     save_data()
@@ -83,6 +85,8 @@ def is_valid(url):
             return False
         if repetitive(url):
             return False
+        if is_url_query_trap(parsed):
+            return False
         if not isScrapable(url):
             return False
         if too_deep(url):
@@ -100,6 +104,15 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+def is_url_query_trap(parsed):
+    """ Checks if URL without query part has been already crawled more than the TRESHOLD, if so its a trap"""
+    TRESHOLD = 5
+    url = parsed._replace(fragment = "", query="").geturl()
+    if url in URLCrawlsCount and URLCrawlsCount[url] > 5:
+        return True
+    else:
+        return False
 
 
 def is_duplicate(tokenFreq):
@@ -186,12 +199,18 @@ def add_words(dictionary):
             commonWords[word] = count
 
 
-def count_if_unique(url):
+def count(url):
+    """ Counts 3 things:
+      First: The total number of unique URLs visited, 
+      Second: The number of subdomains visited, 
+      Third: The nubmer of times a URL without query part has been crawled """
+    # If URL is unique add it to the list of unique URLs
     if "www." in url:
         url = url.replace("www.", "")
     parsed = urlparse(url)
     urldeletedFragment = parsed._replace(fragment = "").geturl() 
     uniqueURLs.add(urldeletedFragment)
+
     # If ics.uci.edu subdomains count it
     if "ics.uci.edu" in url:
         subdomain = parsed._replace(scheme= "https", path="",fragment = "", query="").geturl()
@@ -200,6 +219,12 @@ def count_if_unique(url):
         else:
             ICS_subdomains[subdomain] = 1
 
+    # Count the number of crawls for URL without query 
+    URLwithoutQuery = parsed._replace(fragment = "", query="").geturl()
+    if URLwithoutQuery in URLCrawlsCount:
+        URLCrawlsCount[URLwithoutQuery] += 1
+    else:
+        URLCrawlsCount[URLwithoutQuery] = 1
 
 
 def top_words():
@@ -280,17 +305,17 @@ def removePath(url):
 def save_data():
     """ Stores all the data from scraped URLs to save the progress in case program is stopped """
     with open("scrapedData.pickle", "wb") as f:
-        pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes), f)
+        pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes, URLCrawlsCount), f)
 
 
 def load_data(restart):
     """ Loads all the data from previous scraped URLs"""
-    global commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes
+    global commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes, URLCrawlsCount
     if restart: # If crawler is restarted all data will be reset
         return
     try:
         with open("scrapedData.pickle", "rb") as f:
-            commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes = pickle.load(f)
+            commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes , URLCrawlsCount = pickle.load(f)
     except FileNotFoundError:
         # If the file doesn't exist
         commonWords = {}
@@ -299,3 +324,4 @@ def load_data(restart):
         longest_page = ("", 0)
         ICS_subdomains = {}
         sim_hashes = set()
+        URLCrawlsCount= dict()
