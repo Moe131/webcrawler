@@ -1,71 +1,29 @@
-2024-04-23 17:44:19,876 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:44:20,096 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-23 17:50:20,254 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:50:22,037 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 17:50:42,525 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:50:43,866 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 17:51:26,484 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:51:27,943 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 17:53:27,293 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:53:28,782 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 17:55:28,268 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:55:28,288 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 17:58:21,512 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:58:21,533 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 17:58:47,019 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 17:58:47,041 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 18:01:33,330 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 18:01:33,355 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 18:02:00,855 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 18:02:00,866 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 18:02:16,797 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 18:02:16,816 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 18:02:51,644 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 18:02:51,672 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-23 18:04:02,461 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-23 18:04:02,480 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 10:42:49,076 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-24 10:42:49,099 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 20:56:54,646 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-24 20:56:54,661 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 21:00:52,093 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-24 21:00:52,104 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 21:01:07,357 - FRONTIER - INFO - Did not find save file frontier.shelve, starting from seed.
-2024-04-24 21:01:07,366 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 21:24:07,553 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 21:30:34,943 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 21:33:31,820 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 21:33:31,826 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 21:35:30,021 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-24 21:36:52,657 - FRONTIER - INFO - Found 4 urls to be downloaded from 4 total urls discovered.
-2024-04-24 21:43:15,329 - FRONTIER - INFO - Found 362 urls to be downloaded from 487 total urls discovered.
-2024-04-24 21:45:06,171 - FRONTIER - INFO - Found 440 urls to be downloaded from 571 total urls discovered.
-2024-04-24 21:45:33,737 - FRONTIER - INFO - Found 466 urls to be downloaded from 599 total urls discovered.
-2024-04-24 21:45:51,371 - FRONTIER - INFO - Found 518 urls to be downloaded from 655 total urls discovered.
-2024-04-24 22:04:30,851 - FRONTIER - INFO - Found 607 urls to be downloaded from 753 total urls discovered.
-2024-04-24 22:38:57,380 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 22:38:57,386 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 22:51:42,060 - FRONTIER - INFO - Found 672 urls to be downloaded from 835 total urls discovered.
-2024-04-24 22:54:54,473 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 22:54:54,477 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 22:55:41,321 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 22:55:41,324 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 22:59:50,488 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 22:59:50,491 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 23:02:58,687 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 23:02:58,691 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-24 23:06:44,558 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-24 23:06:44,562 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-25 23:20:11,987 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-25 23:20:11,991 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-25 23:21:15,725 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-25 23:21:15,727 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-25 23:22:29,148 - FRONTIER - INFO - Found 2 urls to be downloaded from 4 total urls discovered.
-2024-04-29 17:28:35,069 - FRONTIER - INFO - Found 931 urls to be downloaded from 1014 total urls discovered.
-2024-04-29 17:29:07,337 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-29 17:29:07,340 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-29 17:29:29,306 - FRONTIER - INFO - Found 2 urls to be downloaded from 4 total urls discovered.
-2024-04-29 17:39:53,225 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
-2024-04-29 17:39:53,229 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
-2024-04-29 17:40:00,820 - FRONTIER - INFO - Found 2 urls to be downloaded from 4 total urls discovered.
-2024-04-29 17:40:38,480 - FRONTIER - INFO - Found 189 urls to be downloaded from 202 total urls discovered.
+2024-04-30 19:58:41,565 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 19:58:41,567 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 19:59:22,585 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 19:59:22,589 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 20:00:23,439 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 20:00:23,441 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 20:03:22,441 - FRONTIER - INFO - Found 50 urls to be downloaded from 68 total urls discovered.
+2024-04-30 20:05:06,448 - FRONTIER - INFO - Found 45 urls to be downloaded from 68 total urls discovered.
+2024-04-30 20:06:40,737 - FRONTIER - INFO - Found 38 urls to be downloaded from 68 total urls discovered.
+2024-04-30 20:07:37,514 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 20:07:37,518 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 20:10:24,643 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 20:10:24,647 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 20:12:29,888 - FRONTIER - INFO - Found 58 urls to be downloaded from 68 total urls discovered.
+2024-04-30 20:13:55,118 - FRONTIER - INFO - Found 54 urls to be downloaded from 68 total urls discovered.
+2024-04-30 20:16:50,524 - FRONTIER - INFO - Found 49 urls to be downloaded from 68 total urls discovered.
+2024-04-30 20:19:25,128 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 20:19:25,131 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 20:20:39,423 - FRONTIER - INFO - Found 209 urls to be downloaded from 225 total urls discovered.
+2024-04-30 20:24:03,568 - FRONTIER - INFO - Did not find save file frontier.pickle, starting from seed.
+2024-04-30 20:24:03,576 - FRONTIER - INFO - Found 0 urls to be downloaded from 0 total urls discovered.
+2024-04-30 22:50:45,540 - FRONTIER - INFO - Found 1022 urls to be downloaded from 1122 total urls discovered.
+2024-05-01 00:00:15,032 - FRONTIER - INFO - Found 1303 urls to be downloaded from 2409 total urls discovered.
+2024-05-01 00:01:06,754 - FRONTIER - INFO - Found 1299 urls to be downloaded from 2409 total urls discovered.
+2024-05-01 00:03:11,535 - FRONTIER - INFO - Found 1289 urls to be downloaded from 2414 total urls discovered.
+2024-05-01 00:09:53,462 - FRONTIER - INFO - Found 1274 urls to be downloaded from 2428 total urls discovered.
+2024-05-01 00:17:15,461 - FRONTIER - INFO - Found 1361 urls to be downloaded from 2855 total urls discovered.
+2024-05-01 00:41:22,491 - FRONTIER - INFO - Found 1411 urls to be downloaded from 3673 total urls discovered.
+2024-05-01 00:54:09,018 - FRONTIER - INFO - Found 1419 urls to be downloaded from 4018 total urls discovered.
