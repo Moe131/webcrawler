@@ -135,11 +135,10 @@ def isWithinDomain(parsedURL):
     """ Checks if the URL is within *.ics.uci.edu/* ,  *.cs.uci.edu/* ,and
       *.informatics.uci.edu/* , *.stat.uci.edu/* domains """
     domain = parsedURL.hostname
-    if not ( ("ics.uci.edu" in domain) or ("cs.uci.edu" in domain) or 
-            ("informatics.uci.edu" in domain) or ("stat.uci.edu" in domain) ):
-        return False
-    else:
-        return True
+    return ( (".ics.uci.edu" in domain) or (".cs.uci.edu" in domain) or 
+            (".informatics.uci.edu" in domain) or (".stat.uci.edu" in domain) or 
+            ("ics.uci.edu" == domain) or ("cs.uci.edu" == domain) or 
+            ("informatics.uci.edu" == domain) or ("stat.uci.edu" == domain) )
 
 
 def read_content(url, soup) ->  dict :
