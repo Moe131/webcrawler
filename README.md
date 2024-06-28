@@ -41,7 +41,14 @@ SEEDURL = https://www.ics.uci.edu,https://www.cs.uci.edu
 python3 launch.py
 ```
 
-If you wish to restart the crawler, run :
+  If you wish to restart the crawler, run :
 ```
 python3 launch.py --restart
 ```
+
+  * If you want to allow all urls to be crawled, inside config.ini set 
+```
+CRAWLALL = FALSE
+```
+
+
