@@ -5,6 +5,7 @@ from urllib.robotparser import RobotFileParser
 from bs4 import BeautifulSoup
 from tokenizer import *
 from simhash import *
+import json
 
 # Dictionary to store common words
 commonWords = {}
@@ -48,11 +49,6 @@ def extract_next_links(url, resp):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
 
-    # if the file size is too large do not index it and return empty dict ( more than 5MB)
-    MAXBODYSIZE = 5000000
-    if len(resp.raw_response.content) > MAXBODYSIZE:
-            return list()
-
     # parse the HTML using BeautifulSoup
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
     
@@ -61,6 +57,9 @@ def extract_next_links(url, resp):
     if len(content) == 0: #If content is not worth scraping return 
         return list()
     add_words(content)
+
+    # download content is json format
+    download_page(resp.raw_response.url, soup)
 
     # finding all the <a> elements (links) in the HTML file (Note: loops and traps are not handled)
     scrapedLinks = list()    
@@ -72,6 +71,12 @@ def extract_next_links(url, resp):
                     scrapedLinks.append(urljoin(url, next_url))
     return scrapedLinks 
 
+def download_page(url, soup):
+    """ saves the content in json format """
+    data = {'url':url, 'content':soup.get_text(strip=True)}
+    # Save the JSON data to a file
+    with open(f'data/{url.replace("/","")}.json', 'w') as f:
+            json.dump(data, f)
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
@@ -304,7 +309,7 @@ def removePath(url):
 
 def save_data():
     """ Stores all the data from scraped URLs to save the progress in case program is stopped """
-    with open("scrapedData.pickle", "wb") as f:
+    with open("crawled.pickle", "wb") as f:
         pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes, URLCrawlsCount), f)
 
 
@@ -314,7 +319,7 @@ def load_data(restart):
     if restart: # If crawler is restarted all data will be reset
         return
     try:
-        with open("scrapedData.pickle", "rb") as f:
+        with open("crawled.pickle", "rb") as f:
             commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes , URLCrawlsCount = pickle.load(f)
     except FileNotFoundError:
         # If the file doesn't exist

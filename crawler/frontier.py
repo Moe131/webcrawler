@@ -12,8 +12,9 @@ class Frontier(object):
         self.logger = get_logger("FRONTIER")
         self.config = config
         self.to_be_downloaded = list()
+
         
-        if not os.path.exists(self.config.save_file) and not restart:
+        if not os.path.exists(self.config.save_file) or  restart:
             # Save file does not exist, but request to load save.
             self.logger.info(
                 f"Did not find save file {self.config.save_file}, "

@@ -1,59 +1,57 @@
-The longest page in terms of words is at: https://ics.uci.edu/alumni/ics-advisory-board with 653 words
+The longest page in terms of words is at: https://www.stat.uci.edu with 165 words
 
 The top 50 common words in the crawled URLs are :
-ics : 37
-research : 34
-student : 21
-undergraduate : 21
-us : 21
-graduate : 20
-uci : 19
-science : 16
-learning : 16
-news : 15
-accessibility : 14
-community : 12
-programs : 12
-spotlights : 12
-computer : 11
-honors : 11
-academic : 11
-events : 11
-2024 : 11
-edu : 11
-alumni : 10
-series : 10
-data : 10
-faculty : 9
-seminar : 9
-systems : 9
-donald : 9
-bren : 9
-follow : 9
-ceo : 9
-contact : 8
-cs : 8
-corporate : 8
-computing : 8
-hall : 8
-machine : 8
-accessible : 8
-software : 8
-vp : 8
-content : 7
-students : 7
-development : 7
-future : 7
-involved : 7
-leadership : 7
-council : 7
-awards : 6
-admissions : 6
-advising : 6
-health : 6
+statistics : 18
+department : 10
+seminar : 8
+data : 7
+science : 7
+news : 6
+statistical : 6
+donald : 5
+bren : 5
+information : 5
+contact : 5
+faculty : 5
+directory : 5
+current : 5
+uci : 5
+archive : 5
+series : 5
+school : 4
+computer : 4
+opportunities : 4
+research : 4
+graduate : 4
+degrees : 4
+course : 4
+listings : 4
+seminars : 4
+explore : 3
+job : 3
+ph : 3
+master : 3
+undergraduate : 3
+center : 3
+consulting : 3
+academic : 3
+sciencesdepartment : 2
+sciences : 2
+chair : 2
+welcome : 2
+what : 2
+tutoring : 2
+resources : 2
+student : 2
+internships : 2
+employment : 2
+employers : 2
+students : 2
+minor : 2
+for : 2
+20 : 2
+years : 2
 
-Total Unique URLs found : 3
+Total Unique URLs found : 2
 
-Number of subdomains in the ics.uci.edu domain : 1
-
-https://ics.uci.edu : 2
+Number of subdomains in the ics.uci.edu domain : 0

@@ -1,3 +1,220 @@
 2024-05-01 13:47:47,533 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu, status <200> 
 2024-05-01 13:47:56,262 - Worker-0 - INFO - Downloaded https://ics.uci.edu/accessibility-statement, status <200> 
 2024-05-01 13:48:04,706 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/ics-advisory-board, status <200> 
+2024-06-28 10:35:24,790 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/industry-advisory-council, status <200> 
+2024-06-28 10:35:26,604 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/hall-of-fame, status <200> 
+2024-06-28 10:35:28,451 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/events/list/?tribe__ecp_custom_49%5B0%5D=Alumni, status <200> 
+2024-06-28 10:35:29,522 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni, status <200> 
+2024-06-28 10:35:31,009 - Worker-0 - INFO - Downloaded https://ics.uci.edu/happening/annual-reports-brochures, status <200> 
+2024-06-28 10:35:32,851 - Worker-0 - INFO - Downloaded https://create.ics.uci.edu/events, status <200> 
+2024-06-28 10:35:34,923 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu/events/seminar-series, status <200> 
+2024-06-28 10:35:36,416 - Worker-0 - INFO - Downloaded https://ics.uci.edu/seminar-series/distinguished-lectures, status <200> 
+2024-06-28 10:35:38,025 - Worker-0 - INFO - Downloaded https://ics.uci.edu/events, status <200> 
+2024-06-28 10:35:38,998 - Worker-0 - INFO - Downloaded https://ics.uci.edu/upcoming-events, status <200> 
+2024-06-28 10:38:07,571 - Worker-0 - INFO - Downloaded https://ics.uci.edu/happening/news/?filter%5Baffiliation_posts%5D=1990, status <200> 
+2024-06-28 10:38:08,882 - Worker-0 - INFO - Downloaded https://ics.uci.edu/happening/news/?filter%5Bresearch_areas_ics%5D=1994, status <200> 
+2024-06-28 10:38:10,032 - Worker-0 - INFO - Downloaded https://ics.uci.edu/happening/news/?filter%5Baffiliation_posts%5D=1989, status <200> 
+2024-06-28 10:38:11,261 - Worker-0 - INFO - Downloaded https://ics.uci.edu/happening/news/?filter%5Baffiliation_posts%5D=1988, status <200> 
+2024-06-28 10:38:12,891 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academics/impact/technology-transfer, status <200> 
+2024-06-28 10:38:14,639 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academics/impact/academic-placements-of-alumni, status <200> 
+2024-06-28 10:38:16,178 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academics/impact/student-awards-honors, status <200> 
+2024-06-28 10:38:17,695 - Worker-0 - INFO - Downloaded https://create.ics.uci.edu, status <200> 
+2024-06-28 10:40:06,732 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu, status <200> 
+2024-06-28 10:40:08,546 - Worker-0 - INFO - Downloaded https://hpi.ics.uci.edu, status <200> 
+2024-06-28 10:40:12,600 - Worker-0 - INFO - Downloaded https://futurehealth.ics.uci.edu, status <200> 
+2024-06-28 10:42:04,107 - Worker-0 - INFO - Downloaded https://ics.uci.edu/computing-research/institutes-centers, status <200> 
+2024-06-28 10:42:05,189 - Worker-0 - INFO - Downloaded https://ics.uci.edu/departments, status <200> 
+2024-06-28 10:42:06,098 - Worker-0 - INFO - Downloaded https://ics.uci.edu/research-areas, status <200> 
+2024-06-28 10:42:07,485 - Worker-0 - INFO - Downloaded https://ics.uci.edu/computing-research, status <200> 
+2024-06-28 10:42:33,701 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academics/graduate-programs, status <200> 
+2024-06-28 10:42:34,447 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academics/undergraduate, status <200> 
+2024-06-28 10:42:35,731 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academics/undergraduate-programs, status <200> 
+2024-06-28 10:42:37,182 - Worker-0 - INFO - Downloaded https://ics.uci.edu/facts-figures, status <200> 
+2024-06-28 10:42:38,921 - Worker-0 - INFO - Downloaded https://ics.uci.edu/facts-figures/ics-mission-history, status <200> 
+2024-06-28 10:42:39,902 - Worker-0 - INFO - Downloaded https://ics.uci.edu/admissions-information-and-computer-science, status <200> 
+2024-06-28 10:42:41,405 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-positions, status <200> 
+2024-06-28 10:43:02,229 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-resources, status <200> 
+2024-06-28 10:43:03,109 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people, status <200> 
+2024-06-28 10:43:04,561 - Worker-0 - INFO - Downloaded https://ics.uci.edu/event/specifying-goals-to-deep-neural-networks-with-answer-set-programming, status <200> 
+2024-06-28 10:43:05,956 - Worker-0 - INFO - Downloaded https://ics.uci.edu/event/from-hierarchical-clustering-to-phylogenetic-csps, status <200> 
+2024-06-28 10:43:07,594 - Worker-0 - INFO - Downloaded https://ics.uci.edu/event/distribution-matching-multi-agent-deployment-for-coverage, status <200> 
+2024-06-28 10:43:09,035 - Worker-0 - INFO - Downloaded https://ics.uci.edu/happening/news, status <200> 
+2024-06-28 10:43:10,469 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/article/awards, status <200> 
+2024-06-28 10:43:27,610 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/11/wang-feng-and-gene-tsudik-are-named-2024-guggenheim-fellows-uci-news, status <200> 
+2024-06-28 10:43:29,917 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/17/retaining-cs-majors-predictive-modeling-and-targeted-academic-interventions, status <200> 
+2024-06-28 10:43:31,451 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/18/uci-advances-to-national-collegiate-cyber-defense-competition, status <200> 
+2024-06-28 10:43:32,274 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/student-life, status <200> 
+2024-06-28 10:43:33,719 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/22/senior-spotlight-introducing-indie-game-developer-sam-hansen, status <200> 
+2024-06-28 10:43:35,241 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/article/highlight, status <200> 
+2024-06-28 10:43:36,583 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/25/emulating-neurodegeneration-and-aging-in-artificial-intelligence-systems-tech-xplore, status <200> 
+2024-06-28 10:43:37,952 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/article, status <200> 
+2024-06-28 10:43:39,419 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/04/30/aspirations-in-computing-honors-next-generation-innovators, status <200> 
+2024-06-28 10:43:40,961 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academic-recruitment, status <200> 
+2024-06-28 10:43:42,357 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2023/09/14/new-findings-on-captchas-attract-worldwide-attention, status <200> 
+2024-06-28 10:43:43,269 - Worker-0 - INFO - Downloaded https://ics.uci.edu/make-a-gift, status <200> 
+2024-06-28 10:43:44,872 - Worker-0 - INFO - Downloaded https://ics.uci.edu/follow-us, status <200> 
+2024-06-28 10:43:45,913 - Worker-0 - INFO - Downloaded https://ics.uci.edu/contact-us, status <200> 
+2024-06-28 10:43:46,909 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/corporate-engagement/corporate-partners, status <200> 
+2024-06-28 10:43:48,358 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/corporate-engagement/student-recruitment-corporate-engagement, status <200> 
+2024-06-28 10:43:49,677 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/corporate-engagement/research-partnerships-corporate-engagement, status <200> 
+2024-06-28 10:43:50,527 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/corporate-engagement/capstone-projects-corporate-engagement, status <200> 
+2024-06-28 10:43:51,820 - Worker-0 - INFO - Downloaded https://ics.uci.edu/alumni/corporate-engagement, status <200> 
+2024-06-28 10:43:53,157 - Worker-0 - INFO - Downloaded https://ics.uci.edu/events/list/?tribe__ecp_custom_46%5B0%5D=Computer+Science, status <200> 
+2024-06-28 10:44:02,331 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/aiml, status <200> 
+2024-06-28 10:44:05,119 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/category/aiml, status <200> 
+2024-06-28 10:44:07,270 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/category/aiml/page/2, status <200> 
+2024-06-28 10:44:09,919 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/category/aiml/page/3, status <200> 
+2024-06-28 10:44:13,093 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/category/aiml/page/4, status <200> 
+2024-06-28 10:44:14,387 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.ics.uci.edu/~babaks/Site/Codes.html.
+2024-06-28 10:44:14,404 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~babaks/Site/Codes.html, status <404> 
+2024-06-28 10:49:32,142 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.ics.uci.edu/~lboyles.
+2024-06-28 10:49:32,179 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~lboyles, status <404> 
+2024-06-28 10:49:33,437 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~djp3, status <200> 
+2024-06-28 10:49:35,015 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/2012/09/fall-2012, status <200> 
+2024-06-28 10:49:36,966 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/2012/08/2012_uaidomination, status <200> 
+2024-06-28 10:49:38,421 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/2012/07/2012_fellowships, status <200> 
+2024-06-28 10:49:39,859 - Worker-0 - INFO - Downloaded https://cml.ics.uci.edu/2012/07/2012_icmlbestpaper, status <200> 
+2024-06-28 10:52:36,980 - Worker-0 - ERROR -  Error <Response [200]> with url https://www.stat.uci.edu.
+2024-06-28 10:52:36,987 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 10:52:39,556 - Worker-0 - ERROR -  Error <Response [200]> with url https://www.cs.uci.edu.
+2024-06-28 10:52:39,565 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu, status <200> 
+2024-06-28 10:52:40,805 - Worker-0 - ERROR -  Error <Response [200]> with url https://www.ics.uci.edu.
+2024-06-28 10:52:40,817 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu, status <200> 
+2024-06-28 10:52:41,323 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-06-28 10:52:48,800 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-06-28 10:53:02,014 - Worker-0 - ERROR -  Error <Response [200]> with url https://www.stat.uci.edu.
+2024-06-28 10:53:02,022 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 10:53:04,238 - Worker-0 - ERROR -  Error <Response [200]> with url https://www.cs.uci.edu.
+2024-06-28 10:53:04,247 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu, status <200> 
+2024-06-28 10:53:05,623 - Worker-0 - ERROR -  Error <Response [200]> with url https://www.ics.uci.edu.
+2024-06-28 10:53:05,633 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu, status <200> 
+2024-06-28 10:53:06,140 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-06-28 10:54:34,401 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 10:54:41,345 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200> 
+2024-06-28 10:54:43,989 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200> 
+2024-06-28 10:54:46,550 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-06-28 10:54:46,552 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404> 
+2024-06-28 10:54:47,859 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-06-28 10:54:47,861 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404> 
+2024-06-28 10:54:49,138 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-06-28 10:54:49,141 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404> 
+2024-06-28 10:54:50,410 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-06-28 10:54:50,411 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404> 
+2024-06-28 10:54:51,954 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200> 
+2024-06-28 10:54:54,698 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017, status <200> 
+2024-06-28 10:56:44,193 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017, status <200> 
+2024-06-28 10:56:46,308 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2017-2018, status <200> 
+2024-06-28 10:57:31,706 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2018-2019, status <200> 
+2024-06-28 10:57:33,025 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/JuliaPalaciosAbstract6-6-19, status <200> 
+2024-06-28 10:57:35,696 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/TianZhengAbstract5-30-19, status <200> 
+2024-06-28 10:57:36,641 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/StephanMandtAbstract5-16-19, status <200> 
+2024-06-28 10:57:38,653 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/LorinCrawfordAbstract5-2-19, status <200> 
+2024-06-28 10:57:40,690 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/XinTongAbstract4-25-19, status <200> 
+2024-06-28 10:57:42,179 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2019-2020, status <200> 
+2024-06-28 10:58:47,180 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2020-2021, status <200> 
+2024-06-28 10:58:49,553 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2021-2022, status <200> 
+2024-06-28 10:58:51,265 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/wp-content/uploads/Shujie-Ma-Abstract-5-5-22, status <200> 
+2024-06-28 10:58:53,015 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2022-2023, status <200> 
+2024-06-28 10:59:15,625 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-2023-2024, status <200> 
+2024-06-28 10:59:18,151 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/slider/uci-launches-new-professional-program-master-of-data-science, status <200> 
+2024-06-28 10:59:20,519 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-look-at-health-and-technology-trends-for-2021-and-beyond, status <200> 
+2024-06-28 11:01:43,760 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-look-at-health-and-technology-trends-for-2021-and-beyond, status <200> 
+2024-06-28 11:01:45,427 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-campus-gem-ucis-statistical-consulting-services, status <200> 
+2024-06-28 11:01:47,847 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/uci-launches-new-professional-program-master-of-data-science, status <200> 
+2024-06-28 11:01:49,636 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/orange-county-business-journal-uci-forecasts-covid-19-trends-in-oc, status <200> 
+2024-06-28 11:01:52,088 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/kuci-office-hours-podcast-keeping-up-with-coronavirus-statistics-vladimir-minin-interviewed, status <200> 
+2024-06-28 11:03:53,422 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/kuci-office-hours-podcast-keeping-up-with-coronavirus-statistics-vladimir-minin-interviewed, status <200> 
+2024-06-28 11:03:54,622 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/oc_covid_model, status <200> 
+2024-06-28 11:03:56,076 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/covid19/index.html, status <200> 
+2024-06-28 11:04:00,022 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/oc_covid_model/index.html, status <200> 
+2024-06-28 11:04:01,208 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~babaks/index.html, status <200> 
+2024-06-28 11:04:02,510 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/isi-buds, status <200> 
+2024-06-28 11:04:03,982 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2023/09/24/uci-summer-institute-trains-undergraduates-in-biostatistics-and-data-science, status <200> 
+2024-06-28 11:04:13,281 - Worker-0 - INFO - Downloaded https://ics.uci.edu/accessibility-statement, status <200> 
+2024-06-28 11:04:15,239 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-positions, status <200> 
+2024-06-28 11:04:18,013 - Worker-0 - INFO - Downloaded https://ics.uci.edu/staff-positions, status <200> 
+2024-06-28 11:04:20,499 - Worker-0 - INFO - Downloaded https://ics.uci.edu/academic-recruitment, status <200> 
+2024-06-28 11:04:22,661 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-resources, status <200> 
+2024-06-28 11:04:27,289 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-resources/facilities, status <200> 
+2024-06-28 11:04:29,390 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-resources/researchdevelopment, status <200> 
+2024-06-28 11:12:54,880 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 11:12:58,119 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu, status <200> 
+2024-06-28 11:13:00,513 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu, status <200> 
+2024-06-28 11:13:01,808 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-06-28 11:13:18,505 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 11:13:20,913 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu, status <200> 
+2024-06-28 11:13:26,879 - Worker-0 - INFO - Downloaded https://ics.uci.edu/accessibility-statement, status <200> 
+2024-06-28 11:13:28,584 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-positions, status <200> 
+2024-06-28 11:13:30,111 - Worker-0 - INFO - Downloaded https://ics.uci.edu/faculty-staff-resources, status <200> 
+2024-06-28 11:13:31,719 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people, status <200> 
+2024-06-28 11:13:36,411 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/page/3, status <200> 
+2024-06-28 11:13:39,873 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/page/5, status <200> 
+2024-06-28 11:13:43,211 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/page/7, status <200> 
+2024-06-28 11:13:46,723 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/page/9, status <200> 
+2024-06-28 11:13:49,789 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/page/11, status <200> 
+2024-06-28 11:13:53,190 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/page/12, status <200> 
+2024-06-28 11:13:56,319 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/hadar-ziv, status <200> 
+2024-06-28 11:13:59,578 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2021/06/22/ics-capstone-program, status <200> 
+2024-06-28 11:14:07,858 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/06/25/a-generation-of-ai-guinea-pigs-the-atlantic, status <200> 
+2024-06-28 11:14:09,864 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/06/27/commentary-californias-public-universities-come-through-at-least-for-one-family-edsource, status <200> 
+2024-06-28 11:14:11,807 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics, status <200> 
+2024-06-28 11:14:14,352 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/3, status <200> 
+2024-06-28 11:24:00,260 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/3, status <200> 
+2024-06-28 11:24:02,211 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/2, status <200> 
+2024-06-28 11:24:05,711 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/4, status <200> 
+2024-06-28 11:24:08,720 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/6, status <200> 
+2024-06-28 11:24:11,534 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/8, status <200> 
+2024-06-28 11:24:14,052 - Worker-0 - INFO - Downloaded https://ics.uci.edu/category/academics/statistics/page/10, status <200> 
+2024-06-28 11:27:36,273 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 11:27:42,728 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200> 
+2024-06-28 11:27:45,812 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200> 
+2024-06-28 11:27:48,440 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-06-28 11:27:48,441 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404> 
+2024-06-28 11:27:49,985 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-06-28 11:27:49,986 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404> 
+2024-06-28 11:27:51,837 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-06-28 11:27:51,838 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404> 
+2024-06-28 11:27:53,361 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-06-28 11:27:53,361 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404> 
+2024-06-28 11:27:55,011 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200> 
+2024-06-28 11:27:57,206 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017, status <200> 
+2024-06-28 11:27:59,218 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2017-2018, status <200> 
+2024-06-28 11:28:01,594 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2018-2019, status <200> 
+2024-06-28 11:28:03,915 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/JuliaPalaciosAbstract6-6-19, status <200> 
+2024-06-28 11:28:05,760 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/TianZhengAbstract5-30-19, status <200> 
+2024-06-28 11:28:06,708 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/StephanMandtAbstract5-16-19, status <200> 
+2024-06-28 11:28:07,698 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/LorinCrawfordAbstract5-2-19, status <200> 
+2024-06-28 11:28:08,648 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/XinTongAbstract4-25-19, status <200> 
+2024-06-28 11:28:10,377 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2019-2020, status <200> 
+2024-06-28 11:30:23,387 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 11:30:26,541 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu, status <200> 
+2024-06-28 11:30:35,066 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 11:30:41,412 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200> 
+2024-06-28 11:30:44,343 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015, status <200> 
+2024-06-28 11:30:53,062 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index.
+2024-06-28 11:30:53,063 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2010-2011/index, status <404> 
+2024-06-28 11:30:55,227 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index.
+2024-06-28 11:30:55,228 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2011-2012/index, status <404> 
+2024-06-28 11:30:56,502 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index.
+2024-06-28 11:30:56,503 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2012-2013/index, status <404> 
+2024-06-28 11:30:58,002 - Worker-0 - ERROR -  Error <Response [404]> with url http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index.
+2024-06-28 11:30:58,003 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/ICS/statistics/research/seminarseries/2013-2014/index, status <404> 
+2024-06-28 11:30:59,428 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016, status <200> 
+2024-06-28 11:31:02,092 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017, status <200> 
+2024-06-28 11:31:04,293 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2017-2018, status <200> 
+2024-06-28 11:31:06,494 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2018-2019, status <200> 
+2024-06-28 11:31:07,824 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/JuliaPalaciosAbstract6-6-19, status <200> 
+2024-06-28 11:31:08,799 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/TianZhengAbstract5-30-19, status <200> 
+2024-06-28 11:31:11,015 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/StephanMandtAbstract5-16-19, status <200> 
+2024-06-28 11:31:12,016 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/LorinCrawfordAbstract5-2-19, status <200> 
+2024-06-28 11:31:12,959 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/wp-content/uploads/XinTongAbstract4-25-19, status <200> 
+2024-06-28 11:34:10,332 - Worker-0 - INFO - Downloaded http://www.stat.uci.edu/seminar-series/seminar-series-2019-2020, status <200> 
+2024-06-28 11:34:12,490 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2020-2021, status <200> 
+2024-06-28 11:34:14,702 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2021-2022, status <200> 
+2024-06-28 11:34:16,063 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/wp-content/uploads/Shujie-Ma-Abstract-5-5-22, status <200> 
+2024-06-28 11:34:17,812 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series-2022-2023, status <200> 
+2024-06-28 11:34:19,751 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-2023-2024, status <200> 
+2024-06-28 11:34:22,564 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/slider/uci-launches-new-professional-program-master-of-data-science, status <200> 
+2024-06-28 11:34:24,917 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/a-look-at-health-and-technology-trends-for-2021-and-beyond, status <200> 
+2024-06-28 11:34:30,139 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu, status <200> 
+2024-06-28 11:34:36,806 - Worker-0 - INFO - Downloaded https://www.stat.uci.edu/seminar-series/seminar-series-archive, status <200> 
