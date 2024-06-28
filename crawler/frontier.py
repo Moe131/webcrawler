@@ -59,7 +59,13 @@ class Frontier(object):
             return None
 
     def add_url(self, url):
+        # does not add url to frontier if its url does not start with seed urls
         url = normalize(url)
+        if not self.config.crawl_all_urls:
+            valid = [url.startswith(seed) for seed in self.config.seed_urls]
+            if not any(valid):
+                return
+                    
         urlhash = get_urlhash(url)
         if urlhash not in self.save:
             self.save[urlhash] = (url, False)

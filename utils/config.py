@@ -9,8 +9,8 @@ class Config(object):
         assert re.match(r"^[a-zA-Z0-9_ ,]+$", self.user_agent), "User agent should not have any special characters outside '_', ',' and 'space'"
         self.threads_count = int(config["LOCAL PROPERTIES"]["THREADCOUNT"])
         self.save_file = config["LOCAL PROPERTIES"]["SAVE"]
-
         self.seed_urls = config["CRAWLER"]["SEEDURL"].split(",")
+        self.crawl_all_urls = config["CRAWLER"]["CRAWLALL"] == 'TRUE' 
         self.time_delay = float(config["CRAWLER"]["POLITENESS"])
 
         self.cache_server = None

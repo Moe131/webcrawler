@@ -1,277 +1,57 @@
-<<<<<<< HEAD
-The longest page in terms of words is at: https://www.stat.uci.edu with 165 words
+The longest page in terms of words is at: https://www.stat.uci.edu/a-look-at-health-and-technology-trends-for-2021-and-beyond with 2367 words
 
 The top 50 common words in the crawled URLs are :
-statistics : 18
-department : 10
-seminar : 8
-data : 7
-science : 7
-news : 6
-statistical : 6
-donald : 5
-bren : 5
-information : 5
-contact : 5
-faculty : 5
-directory : 5
-current : 5
-uci : 5
-archive : 5
-series : 5
-school : 4
-computer : 4
-opportunities : 4
-research : 4
-graduate : 4
-degrees : 4
-course : 4
-listings : 4
-seminars : 4
-explore : 3
-job : 3
-ph : 3
-master : 3
-undergraduate : 3
-center : 3
-consulting : 3
-academic : 3
-sciencesdepartment : 2
-sciences : 2
-chair : 2
-welcome : 2
-what : 2
-tutoring : 2
-resources : 2
-student : 2
-internships : 2
-employment : 2
-employers : 2
-students : 2
-minor : 2
-for : 2
-20 : 2
-years : 2
+statistics : 189
+data : 148
+department : 92
+uci : 81
+science : 72
+seminar : 69
+health : 69
+professor : 64
+research : 59
+information : 58
+news : 58
+school : 57
+computer : 56
+students : 48
+via : 43
+graduate : 42
+zoom : 42
+donald : 41
+bren : 41
+statistical : 41
+university : 41
+will : 40
+sciences : 39
+faculty : 38
+can : 38
+uc : 38
+contact : 37
+the : 37
+join : 34
+people : 34
+course : 33
+series : 33
+opportunities : 32
+current : 32
+directory : 31
+seminars : 31
+archive : 31
+2021 : 31
+healthcare : 31
+degrees : 30
+listings : 30
+technology : 29
+learning : 26
+chair : 25
+sports : 25
+new : 23
+work : 23
+what : 21
+ph : 21
+master : 21
 
-Total Unique URLs found : 2
+Total Unique URLs found : 15
 
 Number of subdomains in the ics.uci.edu domain : 0
-=======
-The longest page in terms of words is at: https://sli.ics.uci.edu/AIStats/Postings with 18392 words
-
-The top 50 common words in the crawled URLs are :
-research : 62839
-ics : 55750
-science : 44169
-student : 38371
-learning : 35198
-computer : 33828
-us : 30510
-graduate : 29045
-undergraduate : 28102
-view : 26660
-news : 26466
-data : 25409
-uci : 25334
-informatics : 23614
-community : 22706
-machine : 19317
-students : 19180
-2024 : 18775
-computing : 18606
-events : 18600
-honors : 17263
-programs : 17236
-alumni : 17032
-statistics : 16738
-software : 15898
-systems : 15501
-spotlights : 15407
-faculty : 15089
-the : 14099
-academic : 14046
-future : 13189
-awards : 12616
-school : 12361
-corporate : 11879
-projects : 11825
-follow : 11626
-information : 11620
-involved : 11432
-health : 11278
-april : 10409
-bren : 10382
-tech : 10164
-lab : 9821
-irvine : 9792
-can : 9781
-search : 9711
-program : 9673
-recent : 9673
-donald : 9449
-will : 9420
-
-Total Unique URLs found : 12314
-
-Number of subdomains in the ics.uci.edu domain : 80
-
-https://accessibility.ics.uci.edu : 2
-
-https://acoi.ics.uci.edu : 105
-
-https://aiclub.ics.uci.edu : 1
-
-https://archive.ics.uci.edu : 38
-
-https://asterix.ics.uci.edu : 2
-
-https://cbcl.ics.uci.edu : 204
-
-https://cert.ics.uci.edu : 4
-
-https://checkin.ics.uci.edu : 2
-
-https://chenli.ics.uci.edu : 9
-
-https://cml.ics.uci.edu : 162
-
-https://code.ics.uci.edu : 14
-
-https://computableplant.ics.uci.edu : 31
-
-https://coronavirustwittermap.ics.uci.edu : 1
-
-https://courselisting.ics.uci.edu : 2
-
-https://cradl.ics.uci.edu : 16
-
-https://create.ics.uci.edu : 7
-
-https://cs.ics.uci.edu : 22
-
-https://cwicsocal18.ics.uci.edu : 10
-
-https://dejavu.ics.uci.edu : 1
-
-https://dgillen.ics.uci.edu : 30
-
-https://ds4all.ics.uci.edu : 2
-
-https://duttgroup.ics.uci.edu : 124
-
-https://dynamo.ics.uci.edu : 1
-
-https://eli.ics.uci.edu : 4
-
-https://elms.ics.uci.edu : 13
-
-https://emj.ics.uci.edu : 40
-
-https://evoke.ics.uci.edu : 3
-
-https://flamingo.ics.uci.edu : 10
-
-https://fr.ics.uci.edu : 3
-
-https://frost.ics.uci.edu : 1
-
-https://futurehealth.ics.uci.edu : 145
-
-https://gitlab.ics.uci.edu : 1
-
-https://graphics.ics.uci.edu : 4
-
-https://graphmod.ics.uci.edu : 1
-
-https://hack.ics.uci.edu : 2
-
-https://hai.ics.uci.edu : 3
-
-https://hobbes.ics.uci.edu : 1
-
-https://hpi.ics.uci.edu : 5
-
-https://hub.ics.uci.edu : 4
-
-https://i-sensorium.ics.uci.edu : 1
-
-https://icde2023.ics.uci.edu : 46
-
-https://ics.uci.edu : 5601
-
-https://ieee.ics.uci.edu : 1
-
-https://industryshowcase.ics.uci.edu : 25
-
-https://informatics-stage.ics.uci.edu : 70
-
-https://insite.ics.uci.edu : 7
-
-https://ipubmed.ics.uci.edu : 1
-
-https://mailman.ics.uci.edu : 5
-
-https://malek.ics.uci.edu : 1
-
-https://mdogucu.ics.uci.edu : 2
-
-https://mondego.ics.uci.edu : 3
-
-https://motifmap-rna.ics.uci.edu : 2
-
-https://motifmap.ics.uci.edu : 1
-
-https://mover.ics.uci.edu : 2
-
-https://oai.ics.uci.edu : 5
-
-https://onboarding.ics.uci.edu : 1
-
-https://pgadmin.ics.uci.edu : 1
-
-https://plrg.ics.uci.edu : 16
-
-https://psearch.ics.uci.edu : 1
-
-https://riscit.ics.uci.edu : 1
-
-https://sdcl.ics.uci.edu : 203
-
-https://seal.ics.uci.edu : 1
-
-https://sherlock.ics.uci.edu : 7
-
-https://sli.ics.uci.edu : 628
-
-https://sourcerer.ics.uci.edu : 1
-
-https://speedtest.ics.uci.edu : 1
-
-https://stairs.ics.uci.edu : 4
-
-https://statistics-stage.ics.uci.edu : 11
-
-https://student-council.ics.uci.edu : 10
-
-https://studentcouncil.ics.uci.edu : 4
-
-https://swiki.ics.uci.edu : 2606
-
-https://tad.ics.uci.edu : 3
-
-https://tastier.ics.uci.edu : 1
-
-https://tutors.ics.uci.edu : 1
-
-https://ugradforms.ics.uci.edu : 1
-
-https://vision.ics.uci.edu : 200
-
-https://wics.ics.uci.edu : 1583
-
-https://wiki.ics.uci.edu : 243
-
-https://www-db.ics.uci.edu : 8
-
-https://xtune.ics.uci.edu : 6
->>>>>>> d2b48175d7a8b65914ba497eec9dbeb6c31e1071

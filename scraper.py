@@ -86,8 +86,6 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if not isWithinDomain(parsed):
-            return False
         if repetitive(url):
             return False
         if is_url_query_trap(parsed):
@@ -134,16 +132,6 @@ def is_duplicate(tokenFreq):
     # store the hash if its not already stored
     sim_hashes.add(simhash)
     return False
-
-
-def isWithinDomain(parsedURL):
-    """ Checks if the URL is within *.ics.uci.edu/* ,  *.cs.uci.edu/* ,and
-      *.informatics.uci.edu/* , *.stat.uci.edu/* domains """
-    domain = parsedURL.hostname
-    return ( (".ics.uci.edu" in domain) or (".cs.uci.edu" in domain) or 
-            (".informatics.uci.edu" in domain) or (".stat.uci.edu" in domain) or 
-            ("ics.uci.edu" == domain) or ("cs.uci.edu" == domain) or 
-            ("informatics.uci.edu" == domain) or ("stat.uci.edu" == domain) )
 
 
 def read_content(url, soup) ->  dict :
