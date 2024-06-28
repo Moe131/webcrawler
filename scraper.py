@@ -29,7 +29,10 @@ def scraper(url, resp):
         return list()
     # if content type is not HTML ignore it
     content_type = resp.raw_response.headers.get('Content-Type')
+    content_lang = resp.raw_response.headers.get('Content-Language')
     if content_type and not 'text/html' in content_type: 
+        return list()
+    if content_lang and 'en' != content_lang: 
         return list()
     count(url)
     links = extract_next_links(url, resp)
