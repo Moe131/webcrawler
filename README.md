@@ -1,9 +1,9 @@
 #  Web Crawler  - UCI project
 
-This Python web crawler is designed to crawl the subdomain of University of California, Irvine (UCI) website and websites of different schools of UCI. This crawler respects the politeness delay for each site
-and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
+This Python web crawler is designed to crawl the subdomain of University of California, Irvine (UCI) website and websites of different schools of UCI. This crawler respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
+Furthermore, each crawled page will downloaded and  saved in a json file in data folder on your system.
 
-## Features:
+# Features:
 Crawls the UCI schools websites to gather textual content.
 Processes the content to extract words.
 Avoid traps or loops
@@ -26,3 +26,22 @@ To install the dependencies for this project run the following two commands afte
 
 python -m pip install packages/spacetime-2.1.1-py3-none-any.whl
 python -m pip install -r packages/requirements.txt
+
+# Run the crawler
+
+### step 1: provide your seed urls separated by comma in config.ini file :
+
+```
+SEEDURL = https://www.ics.uci.edu,https://www.cs.uci.edu  
+```
+
+### step 2: Run the following command
+
+```
+python3 launch.py
+```
+
+If you wish to restart the crawler, run :
+```
+python3 launch.py --restart
+```
