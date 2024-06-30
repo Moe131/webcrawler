@@ -10,6 +10,7 @@ def main(config_file, restart):
     cparser = ConfigParser()
     cparser.read(config_file)
     config = Config(cparser)
+    scraper.config = config
     scraper.load_data(restart)
     crawler = Crawler(config, restart)
     crawler.start()

@@ -15,12 +15,12 @@ uniqueURLs = set()
 robots_cache = {}
 # Longest page in terms of words
 longest_page = ("",0)
-# Dictionary of unique subdomains of ics.uci.edu
-ICS_subdomains = {}
 # sim hashes of content to detect exact/near duplicate
 sim_hashes = set()
 # Dictionary of number of times a URL without query has been crawled to  avoid traps
 URLCrawlsCount = dict()
+# Config
+config = None
 
 
 def scraper(url, resp):
@@ -89,13 +89,11 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if repetitive(url):
+        if not isWithinSeeds(url):
             return False
         if is_url_query_trap(parsed):
             return False
         if not isScrapable(url):
-            return False
-        if too_deep(url):
             return False
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -110,6 +108,15 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+def isWithinSeeds(url):
+    """Check if a URL is within the seed URLs defined in the config."""
+    if not config.crawl_all_urls :
+        valid = [url.startswith(seed) for seed in config.seed_urls]
+        if not any(valid):
+            return False
+    return True
+
 
 def is_url_query_trap(parsed):
     """ Checks if URL without query part has been already crawled more than the TRESHOLD, if so its a trap"""
@@ -179,11 +186,6 @@ def createSummaryFile():
         summaryfile.write("\nTotal Unique URLs found : ")
         summaryfile.write(str(len(uniqueURLs)))
 
-        summaryfile.write(f"\n\nNumber of subdomains in the ics.uci.edu domain : {len(ICS_subdomains)}\n")
-        for key in sorted(ICS_subdomains.keys()):
-                summaryfile.write(f"\n{key} : {ICS_subdomains[key]}\n")
-
-
 def add_words(dictionary):
     """ adds the words and their counts of each URL to the global dictionary  """
     # update the commonWords dictionary from summary.txt if its empty
@@ -206,13 +208,6 @@ def count(url):
     urldeletedFragment = parsed._replace(fragment = "").geturl() 
     uniqueURLs.add(urldeletedFragment)
 
-    # If ics.uci.edu subdomains count it
-    if "ics.uci.edu" in url:
-        subdomain = parsed._replace(scheme= "https", path="",fragment = "", query="").geturl()
-        if subdomain in ICS_subdomains:
-            ICS_subdomains[subdomain] += 1
-        else:
-            ICS_subdomains[subdomain] = 1
 
     # Count the number of crawls for URL without query 
     URLwithoutQuery = parsed._replace(fragment = "", query="").geturl()
@@ -234,7 +229,6 @@ def isScrapable(url):
     try:
         hostPath = removePath(url)
         robotsURL = hostPath + "/robots.txt"
-
         if robotsURL in robots_cache:
             rbParser = robots_cache[robotsURL]
         else:
@@ -248,30 +242,6 @@ def isScrapable(url):
     except Exception as e:
         return False
     
-
-def repetitive(url):
-    """ Checks for repeating segments Note! this is a work in progress. """
-    sectionDict = {}
-    section = url.split("/")
-    current = None
-    for i in section:
-        if i in sectionDict:
-            sectionDict[i] += 1
-            if sectionDict[i] >= 3:
-                return True
-        else:
-            sectionDict[i] = 1
-    return False
-
-
-def too_deep(url):
-    """ Checks if depth of URL go over a maximum value. """
-    depth = urlparse(url).path.strip("/").count("/")
-    maxAmount = 10
-    if depth > maxAmount:
-        return True
-    return False
-
 
 def lowTextValue(text):
     """ Checks for pages that have low information value. """
@@ -300,17 +270,17 @@ def removePath(url):
 def save_data():
     """ Stores all the data from scraped URLs to save the progress in case program is stopped """
     with open("crawled.pickle", "wb") as f:
-        pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes, URLCrawlsCount), f)
+        pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes, URLCrawlsCount), f)
 
 
 def load_data(restart):
     """ Loads all the data from previous scraped URLs"""
-    global commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes, URLCrawlsCount
+    global commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes, URLCrawlsCount
     if restart: # If crawler is restarted all data will be reset
         return
     try:
         with open("crawled.pickle", "rb") as f:
-            commonWords, uniqueURLs, robots_cache, longest_page, ICS_subdomains, sim_hashes , URLCrawlsCount = pickle.load(f)
+            commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes , URLCrawlsCount = pickle.load(f)
     except FileNotFoundError:
         # If the file doesn't exist
         commonWords = {}
