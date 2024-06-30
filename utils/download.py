@@ -9,7 +9,7 @@ def download(url, config, logger=None):
     MAX_TRY = 5
     while(MAX_TRY > 0):
         try:
-            resp = requests.get(url,timeout=30)
+            resp = requests.get(url=url,headers={'User-Agent': 'Mozilla/5.0'},timeout=30)
             break
         except requests.exceptions.Timeout:
             print("Request Timed out. Trying again")
