@@ -48,7 +48,7 @@ python3 launch.py --restart
 
   * If you want to allow all urls to be crawled, inside config.ini set 
 ```
-CRAWLALL = FALSE
+CRAWLALL = TRUE
 ```
-
+  Otherwise, only URLs that begin with the seed URLs will be crawled.
 
