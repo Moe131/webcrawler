@@ -1,10 +1,10 @@
 #  Web Crawler  - UCI project
 
-This Python web crawler is designed to crawl the subdomain of University of California, Irvine (UCI) website and websites of different schools of UCI. This crawler respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
-Furthermore, each crawled page will downloaded and  saved in a json file in data folder on your system.
+This Python web crawler is designed to crawl the web and downloading the content of each crawled page. This crawler respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
+Furthermore, each crawled page will downloaded and saved in a json file in data folder on your system.
 
 # Features:
-Crawls the UCI schools websites to gather textual content.
+Crawls web and downlaods each web page
 Processes the content to extract words.
 Avoid traps or loops
 Counts the occurrence of each word.
