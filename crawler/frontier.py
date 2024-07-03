@@ -14,7 +14,7 @@ class Frontier(object):
         self.to_be_downloaded = list()
 
         
-        if not os.path.exists(self.config.save_file) or  restart:
+        if not os.path.exists(self.config.save_file):
             # Save file does not exist, but request to load save.
             self.logger.info(
                 f"Did not find save file {self.config.save_file}, "
@@ -22,11 +22,14 @@ class Frontier(object):
             with open(self.config.save_file, "wb") as f:
                 pickle.dump(dict() ,f)
         
-        elif os.path.exists(self.config.save_file) and restart:
+        elif restart:
             # Save file does exists, but request to start from seed.
             self.logger.info(
-                f"Found save file {self.config.save_file}, deleting it.")
+                f"Crawler restarted. Starting from seed.")
             os.remove(self.config.save_file)
+            with open(self.config.save_file, "wb") as f:
+                pickle.dump(dict() ,f)
+            
         # Load existing save file, or create one if it does not exist.
         with open(self.config.save_file, "rb" ) as f :
             self.save = pickle.load(f)
