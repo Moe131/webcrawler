@@ -27,7 +27,6 @@ class Frontier(object):
             # Save file does exists, but request to start from seed.
             self.logger.info(
                 f"Crawler restarted. Starting from seed.")
-            os.remove(self.config.save_file)
             with open(self.config.save_file, "wb") as f:
                 pickle.dump(dict() ,f)
             

@@ -287,6 +287,5 @@ def load_data(restart):
         uniqueURLs = set()
         robots_cache = {}
         longest_page = ("", 0)
-        ICS_subdomains = {}
         sim_hashes = set()
         URLCrawlsCount= dict()
