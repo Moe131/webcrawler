@@ -29,19 +29,33 @@ python -m pip install -r packages/requirements.txt
 
 # Run the crawler
 
-### step 1: provide your seed urls separated by comma in config.ini file :
+### step 1: Configure the crawler by updating config.ini file :
+
+
+- provide your seed urls separated by comma
 
 ```
 SEEDURL = https://www.ics.uci.edu,https://www.cs.uci.edu  
 ```
 
-### step 2: Run the following command
+- If you want to allow all urls to be crawled, inside config.ini set CRAWLALL to TRUE. Otherwise, only URLs that begin with the seed URLs will be crawled.
+
+```
+CRAWLALL = TRUE
+```
+- You can change the time wait in seconds between each request.
+
+```
+POLITENESS = 0.5
+```
+
+### step 2: Run the crawler by running the following command
 
 ```
 python3 launch.py
 ```
 
-  If you wish to restart the crawler, run :
+If you wish to restart the crawler, run :
 ```
 python3 launch.py --restart
 ```
