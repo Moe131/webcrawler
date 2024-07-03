@@ -16,6 +16,7 @@ class Frontier(object):
         
         if not os.path.exists(self.config.save_file):
             # Save file does not exist, but request to load save.
+            restart = True
             self.logger.info(
                 f"Did not find save file {self.config.save_file}, "
                 f"starting from seed.")
@@ -39,9 +40,7 @@ class Frontier(object):
         else:
             # Set the frontier state with contents of save file.
             self._parse_save_file()
-            if not self.save:
-                for url in self.config.seed_urls:
-                    self.add_url(url)
+
 
     def _parse_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
