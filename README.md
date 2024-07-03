@@ -4,11 +4,16 @@ This Python web crawler is designed to crawl the web and downloading the content
 Furthermore, each crawled page will downloaded and saved in a json file in data folder on your system.
 
 # Features:
-Crawls web and downlaods each web page
-Processes the content to extract words.
+Crawls web and downlaods each web page.
+
+Processes the content to extract new links.
+
 Avoid traps or loops
+
 Counts the occurrence of each word.
+
 Identifies the top 50 most frequent words.
+
 Outputs the results to summary.txt.
 
 # Dependencies
@@ -29,7 +34,7 @@ python -m pip install -r packages/requirements.txt
 
 # Run the crawler
 
-### step 1: Configure the crawler by updating config.ini file :
+ ## step 1: Configure the crawler by updating config.ini file :
 
 
 - provide your seed urls separated by comma
@@ -49,7 +54,7 @@ CRAWLALL = TRUE
 POLITENESS = 0.5
 ```
 
-### step 2: Run the crawler by running the following command
+ ## Step 2: Run the crawler by running the following command
 
 ```
 python3 launch.py
@@ -59,10 +64,4 @@ If you wish to restart the crawler, run :
 ```
 python3 launch.py --restart
 ```
-
-  * If you want to allow all urls to be crawled, inside config.ini set 
-```
-CRAWLALL = TRUE
-```
-  Otherwise, only URLs that begin with the seed URLs will be crawled.
 
