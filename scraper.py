@@ -1,4 +1,4 @@
-import re
+import re , os
 import pickle
 from urllib.parse import urlparse, urljoin
 from urllib.robotparser import RobotFileParser
@@ -24,25 +24,36 @@ config = None
 
 
 def scraper(url, resp):
-    # if retrieving the page was NOT successful return empty list of links
-    if resp.status != 200 or resp.raw_response is None:
+    if not is_response_valid(resp) or not is_content_language_valid(resp) or not is_content_type_valid(resp) :
         return list()
-    # if content type is not HTML ignore it
-    content_type = resp.raw_response.headers.get('Content-Type')
-    content_lang = resp.raw_response.headers.get('Content-Language')
-    if content_type and not 'text/html' in content_type: 
-        return list()
-    if content_lang and 'en' != content_lang: 
-        return list()
-    count(url)
     links = extract_next_links(url, resp)
-    createSummaryFile()  # later we should we move this to the end of launch.py
-    save_data()
+    createSummaryFile() # Create summary file to show the progress
+    count(url)
+    save_progress()
     return [link for link in links if is_valid(link)]
+
+def is_response_valid(resp):
+    # Checks if the response is valid
+    if resp.status != 200 or resp.raw_response is None:
+        return False
+    return True
+
+def is_content_type_valid(resp):
+    # Checks if the content type is valid
+    content_type = resp.raw_response.headers.get('Content-Type')
+    if content_type and not 'text/html' in content_type: 
+        return False
+    return True
+
+def is_content_language_valid(resp):
+    # Checks if the content language is valid
+    content_lang = resp.raw_response.headers.get('Content-Language')
+    if content_lang and 'en' != content_lang: 
+        return False
+    return True
 
 
 def extract_next_links(url, resp):
-    # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
     # resp.status: the status code returned by the server. 200 is OK, you got the page. Other numbers mean that there was some kind of problem.
@@ -74,11 +85,17 @@ def extract_next_links(url, resp):
                     scrapedLinks.append(urljoin(url, next_url))
     return scrapedLinks 
 
+
 def download_page(url, soup):
     """ saves the content in json format """
-    data = {'url':url, 'content':soup.get_text(strip=True)}
+    # Ensure the data directory exists
+    os.makedirs('data', exist_ok=True)
+    # Extract title and content
+    title = soup.find("title").get_text(strip=True) if soup.find("title") else url
+    data = {'url': url, 'title': title, 'content': soup.get_text(strip=True)}
     # Save the JSON data to a file
-    with open(f'data/{url.replace("/","")}.json', 'w') as f:
+    url = url.lstrip("https://").rstrip("/").replace("/","-")
+    with open(f'data/{url}.json', 'w') as f:
             json.dump(data, f)
 
 def is_valid(url):
@@ -267,13 +284,13 @@ def removePath(url):
     return f"{parsedURL.scheme}://{parsedURL.netloc}"
 
 
-def save_data():
+def save_progress():
     """ Stores all the data from scraped URLs to save the progress in case program is stopped """
     with open("crawled.pickle", "wb") as f:
         pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes, URLCrawlsCount), f)
 
 
-def load_data(restart):
+def load_progress(restart):
     """ Loads all the data from previous scraped URLs"""
     global commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes, URLCrawlsCount
     if restart: # If crawler is restarted all data will be reset

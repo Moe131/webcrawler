@@ -1,0 +1,22 @@
+2024-07-03 02:18:21,724 - Worker-0 - INFO - Downloaded https://www.irs.gov, status <200> 
+2024-07-03 02:18:32,241 - Worker-0 - INFO - Downloaded https://www.irs.gov/accessibility, status <200> 
+2024-07-09 16:35:52,089 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 16:36:02,578 - Worker-0 - INFO - Downloaded https://www.uscis.gov/sitemap, status <200> 
+2024-07-09 16:40:05,217 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 16:40:15,717 - Worker-0 - INFO - Downloaded https://www.uscis.gov/sitemap, status <200> 
+2024-07-09 17:10:55,960 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 17:11:05,966 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-07-09 17:12:06,781 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 17:12:16,786 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-07-09 17:12:26,778 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 17:12:36,784 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-07-09 17:13:03,475 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 17:13:13,479 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-07-09 17:14:00,844 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 17:14:10,850 - Worker-0 - INFO - Frontier is empty. Stopping Crawler.
+2024-07-09 17:14:41,869 - Worker-0 - INFO - Downloaded https://www.uscis.gov, status <200> 
+2024-07-09 17:14:53,040 - Worker-0 - INFO - Downloaded https://www.uscis.gov/sitemap, status <200> 
+2024-07-09 17:15:04,636 - Worker-0 - INFO - Downloaded https://www.uscis.gov/working-in-the-united-states/important-information-about-working-legally-in-the-united-states, status <200> 
+2024-07-09 17:15:16,259 - Worker-0 - INFO - Downloaded https://www.uscis.gov/working-in-the-united-states/important-information-about-working-legally-in-the-united-states-ukrainian, status <200> 
+2024-07-09 17:15:26,784 - Worker-0 - INFO - Downloaded https://www.uscis.gov/es/no-hay-traduccion-disponible, status <200> 
+2024-07-09 17:15:37,180 - Worker-0 - INFO - Downloaded https://www.uscis.gov/working-in-the-united-states/important-information-about-working-legally-in-the-united-states-haitian, status <200> 

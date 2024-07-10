@@ -11,7 +11,7 @@ def main(config_file, restart):
     cparser.read(config_file)
     config = Config(cparser)
     scraper.config = config
-    scraper.load_data(restart)
+    scraper.load_progress(restart)
     crawler = Crawler(config, restart)
     crawler.start()
 
