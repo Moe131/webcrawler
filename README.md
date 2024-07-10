@@ -1,36 +1,23 @@
-#  Web Crawler  - UCI project
+# Web Crawler - UCI Project
 
-This Python web crawler is designed to crawl the web and downloading the content of each crawled page. This crawler respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
-Furthermore, each crawled page will downloaded and saved in a json file in data folder on your system.
+This Python web crawler is designed to crawl the web by extracting new links from web pages and downloading the content of each crawled page. It respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Additionally, it finds the top 50 most frequently occurring words in the crawled content and saves them in `summary.txt`. Each crawled page will be downloaded and saved in a JSON file in the `data` folder on your system.
 
-# Features:
-Crawls web and downlaods each web page.
+## Features
 
-Processes the content to extract new links.
-
-Avoid traps or loops
-
-Counts the occurrence of each word.
-
-Identifies the top 50 most frequent words.
-
-Outputs the results to summary.txt.
+- Crawls the web and downloads each web page.
+- Processes the content to extract new links.
+- Avoids traps or loops and avoids downloading duplicate pages.
+- Counts the occurrence of each word.
+- Identifies the top 50 most frequent words.
+- Outputs the results to `summary.txt`.
 
 # Dependencies
-If you do not have Python 3.6+:
-
-Windows: https://www.python.org/downloads/windows/
-
-Linux: https://docs.python-guide.org/starting/install3/linux/
-
-MAC: https://docs.python-guide.org/starting/install3/osx/
-
-Check if pip is installed by opening up a terminal/command prompt and typing the commands python3 -m pip. This should show the help menu for all the commands possible with pip. If it does not, then get pip by following the instructions at https://pip.pypa.io/en/stable/installing/
 
 To install the dependencies for this project run the following two commands after ensuring pip is installed for the version of python you are using. Admin privileges might be required to execute the commands. Also make sure that the terminal is at the root folder of this project.
-
+```
 python -m pip install packages/spacetime-2.1.1-py3-none-any.whl
 python -m pip install -r packages/requirements.txt
+```
 
 # Run the crawler
 
@@ -65,3 +52,11 @@ If you wish to restart the crawler, run :
 python3 launch.py --restart
 ```
 
+# Custom Parsing
+You can customize the way you want to parse each web page. To customize the parsing, modify the **'parse()'** method inside **'scraper.py'**.
+
+```
+def parse(resp):
+    """ Parse the web page """
+    # Your Custom Parsing
+```
