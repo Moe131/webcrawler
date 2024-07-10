@@ -20,3 +20,12 @@
 2024-07-09 17:15:16,259 - Worker-0 - INFO - Downloaded https://www.uscis.gov/working-in-the-united-states/important-information-about-working-legally-in-the-united-states-ukrainian, status <200> 
 2024-07-09 17:15:26,784 - Worker-0 - INFO - Downloaded https://www.uscis.gov/es/no-hay-traduccion-disponible, status <200> 
 2024-07-09 17:15:37,180 - Worker-0 - INFO - Downloaded https://www.uscis.gov/working-in-the-united-states/important-information-about-working-legally-in-the-united-states-haitian, status <200> 
+2024-07-09 20:46:49,065 - Worker-0 - INFO - Downloaded https://www.irs.gov/newsroom, status <200> 
+2024-07-09 20:46:50,518 - Worker-0 - INFO - Downloaded https://www.irs.gov/accessibility, status <200> 
+2024-07-09 20:46:51,506 - Worker-0 - INFO - Downloaded https://www.irs.gov/help/omb-control-number-1545-2208, status <200> 
+2024-07-09 20:46:53,198 - Worker-0 - INFO - Downloaded https://www.irs.gov/ht/help/omb-control-number-1545-2208, status <200> 
+2024-07-09 20:46:54,726 - Worker-0 - INFO - Downloaded https://www.irs.gov/vi/help/omb-control-number-1545-2208, status <200> 
+2024-07-09 20:46:56,025 - Worker-0 - INFO - Downloaded https://www.irs.gov/ru/help/omb-control-number-1545-2208, status <200> 
+2024-07-09 20:46:57,362 - Worker-0 - INFO - Downloaded https://www.irs.gov/ko/help/omb-control-number-1545-2208, status <200> 
+2024-07-09 20:46:59,024 - Worker-0 - INFO - Downloaded https://www.irs.gov/zh-hant/help/omb-control-number-1545-2208, status <200> 
+2024-07-09 20:47:00,561 - Worker-0 - INFO - Downloaded https://www.irs.gov/zh-hans/help/omb-control-number-1545-2208, status <200> 

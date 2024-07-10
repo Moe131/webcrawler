@@ -3,8 +3,8 @@ import pickle
 from urllib.parse import urlparse, urljoin
 from urllib.robotparser import RobotFileParser
 from bs4 import BeautifulSoup
-from tokenizer import *
-from simhash import *
+from utils.tokenizer import *
+from utils.simhash import *
 import json
 
 # Dictionary to store common words
@@ -171,10 +171,6 @@ def read_content(url, soup) ->  dict :
         bodyText = bodyContent.get_text()
     else:
         bodyText = ""
-    
-    # check if the page has low text value
-    if lowTextValue(bodyText):
-        return dict()
 
     tokenFreq = tokenize(bodyText)
 
@@ -259,23 +255,6 @@ def isScrapable(url):
     except Exception as e:
         return False
     
-
-def lowTextValue(text):
-    """ Checks for pages that have low information value. """
-    errors = ["Error", "Whoops", "having trouble locating"]
-    isError = False
-    wordCount = len(text.split())
-    for word in errors:
-        if word.lower() in text.lower():
-            IsError = True
-    # Page has error message content
-    if wordCount < 500 and isError :
-        return True
-    # Page has no content
-    if wordCount < 50 :
-        return True
-    return False
-
 
 def removePath(url):
     """ This method keep the host name of the domain and reomves

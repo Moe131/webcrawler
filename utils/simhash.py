@@ -1,5 +1,5 @@
 import hashlib
-from tokenizer import *
+from utils.tokenizer import *
 
 def find_256bit_hash(word, freq):
     """ Use SHA-256 to hash the string into 32 bytes and find
