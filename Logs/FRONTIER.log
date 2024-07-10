@@ -15,3 +15,10 @@
 2024-07-09 21:08:52,028 - FRONTIER - INFO - Crawler restarted. Starting from seed.
 2024-07-09 21:11:03,505 - FRONTIER - INFO - Crawler restarted. Starting from seed.
 2024-07-09 21:12:41,449 - FRONTIER - INFO - Found 352 urls to be downloaded from 380 total urls discovered.
+2024-07-09 21:16:36,145 - FRONTIER - INFO - Crawler restarted. Starting from seed.
+2024-07-09 21:16:51,243 - FRONTIER - INFO - Found 224 urls to be downloaded from 234 total urls discovered.
+2024-07-09 21:17:01,993 - FRONTIER - INFO - Found 357 urls to be downloaded from 373 total urls discovered.
+2024-07-09 21:18:04,070 - FRONTIER - INFO - Found 350 urls to be downloaded from 380 total urls discovered.
+2024-07-09 21:22:27,040 - FRONTIER - INFO - Did not find save file pickles/frontier.pickle, starting from seed.
+2024-07-09 21:22:43,450 - FRONTIER - INFO - Found 319 urls to be downloaded from 331 total urls discovered.
+2024-07-09 21:22:53,224 - FRONTIER - INFO - Crawler restarted. Starting from seed.

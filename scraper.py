@@ -74,17 +74,6 @@ def extract_next_links(url, resp):
                     scrapedLinks.append(urljoin(url, next_url))
     return scrapedLinks 
 
-def download_page(url, soup):
-    """ saves the content in json format """
-    # Ensure the data directory exists
-    os.makedirs('data', exist_ok=True)
-    # Extract title and content
-    title = soup.find("title").get_text(strip=True) if soup.find("title") else url
-    data = {'url': url, 'title': title, 'content': soup.get_text(strip=True)}
-    # Save the JSON data to a file
-    url = url.lstrip("https://").rstrip("/").replace("/","-")
-    with open(f'data/{url}.json', 'w') as f:
-            json.dump(data, f)
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
@@ -228,17 +217,19 @@ def removePath(url):
 
 def save_progress():
     """ Stores all the data from scraped URLs to save the progress in case program is stopped """
-    with open("crawled.pickle", "wb") as f:
+    os.makedirs('pickles', exist_ok=True)
+    with open("pickles/crawled.pickle", "wb") as f:
         pickle.dump((commonWords, uniqueURLs, robots_cache, sim_hashes, URLCrawlsCount), f)
 
 
 def load_progress(restart):
     """ Loads all the data from previous scraped URLs"""
+    os.makedirs('pickles', exist_ok=True)
     global commonWords, uniqueURLs, robots_cache, sim_hashes, URLCrawlsCount
     if restart: # If crawler is restarted all data will be reset
         return
     try:
-        with open("crawled.pickle", "rb") as f:
+        with open("pickles/crawled.pickle", "rb") as f:
             commonWords, uniqueURLs, robots_cache, sim_hashes , URLCrawlsCount = pickle.load(f)
     except FileNotFoundError:
         # If the file doesn't exist
@@ -261,3 +252,16 @@ def parse(resp):
 
     # download content is json format
     download_page(resp.raw_response.url, soup)
+
+
+def download_page(url, soup):
+    """ saves the content in json format """
+    # Ensure the data directory exists
+    os.makedirs('data', exist_ok=True)
+    # Extract title and content
+    title = soup.find("title").get_text(strip=True) if soup.find("title") else url
+    data = {'url': url, 'title': title, 'content': soup.get_text(strip=True)}
+    # Save the JSON data to a file
+    url = url.lstrip("https://").rstrip("/").replace("/","-")
+    with open(f'data/{url}.json', 'w') as f:
+            json.dump(data, f)
