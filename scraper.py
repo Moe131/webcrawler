@@ -13,8 +13,6 @@ commonWords = {}
 uniqueURLs = set()
 # Dictionary to store robots.txt for urls
 robots_cache = {}
-# Longest page in terms of words
-longest_page = ("",0)
 # sim hashes of content to detect exact/near duplicate
 sim_hashes = set()
 # Dictionary of number of times a URL without query has been crawled to  avoid traps
@@ -24,12 +22,13 @@ config = None
 
 
 def scraper(url, resp):
-    if not is_response_valid(resp) or not is_content_language_valid(resp) or not is_content_type_valid(resp) :
+    if not is_response_valid(resp) or not is_content_language_valid(resp) or not is_content_type_valid(resp) or is_duplicate(resp) :
         return list()
+    parse(resp)
     links = extract_next_links(url, resp)
-    createSummaryFile() # Create summary file to show the progress
     count(url)
     save_progress()
+    createSummaryFile() # Create summary file to show the progress
     return [link for link in links if is_valid(link)]
 
 def is_response_valid(resp):
@@ -65,16 +64,6 @@ def extract_next_links(url, resp):
 
     # parse the HTML using BeautifulSoup
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
-    
-    # read the parsed content and check for duplication
-    content = read_content(url, soup)
-    if len(content) == 0: #If content is not worth scraping return 
-        return list()
-    add_words(content)
-
-    # download content is json format
-    download_page(resp.raw_response.url, soup)
-
     # finding all the <a> elements (links) in the HTML file (Note: loops and traps are not handled)
     scrapedLinks = list()    
     for linkElement in soup.find_all("a", href=True) : 
@@ -84,7 +73,6 @@ def extract_next_links(url, resp):
                     next_url = parsed._replace(fragment= "").geturl()
                     scrapedLinks.append(urljoin(url, next_url))
     return scrapedLinks 
-
 
 def download_page(url, soup):
     """ saves the content in json format """
@@ -145,14 +133,17 @@ def is_url_query_trap(parsed):
         return False
 
 
-def is_duplicate(tokenFreq):
-    """ Checks if a text represented as dictionary of words with their frequencies
-        is exact or near duplicate of already scraped websites. """
+def is_duplicate(resp):
+    """ Checks if content is exact or near duplicate of already scraped web pages. """
+    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+    content = soup.get_text()
     # store the hash and check if its exat duplicate
+    tokenFreq = tokenize(content)
     simhash = simHash(tokenFreq)
-    if simhash in sim_hashes: # exact dupliacte
+    # check exact dupliacte
+    if simhash in sim_hashes: 
         return True
-    
+    # check near dupliactes
     for sh in sim_hashes:
         if are_near_duplicate(sh, simhash):
             return True
@@ -161,37 +152,10 @@ def is_duplicate(tokenFreq):
     return False
 
 
-def read_content(url, soup) ->  dict :
-    """ Reads the content of a URL and returns a dictionary
-        with words and their frequencies in that page. If content is duplicate
-         or low value returns an empty dictionary """
-    bodyContent = soup.find("body")
-    # check if url has body
-    if bodyContent :
-        bodyText = bodyContent.get_text()
-    else:
-        bodyText = ""
-
-    tokenFreq = tokenize(bodyText)
-
-    #if duplicate return 
-    if is_duplicate(tokenFreq):
-        return dict()
-    
-    #Check if longest page
-    global longest_page
-    pageLength = sum(tokenFreq.values())
-    if pageLength > longest_page[1]:
-        longest_page = (url, pageLength)
-    return tokenFreq
-
-
 def createSummaryFile():
     """ Creates summary.txt with the numer of unique URLs and the
         top 50 words in the crawled pages """
     with open("summary.txt" , 'w') as summaryfile:
-        #lists the page with the most words
-        summaryfile.write(f"The longest page in terms of words is at: {longest_page[0]} with {longest_page[1]} words\n\n")
         # sorted the dictionary and obtains the 50 most common words
         summaryfile.write("The top 50 common words in the crawled URLs are :\n")
         for word, count in top_words():
@@ -220,7 +184,6 @@ def count(url):
     parsed = urlparse(url)
     urldeletedFragment = parsed._replace(fragment = "").geturl() 
     uniqueURLs.add(urldeletedFragment)
-
 
     # Count the number of crawls for URL without query 
     URLwithoutQuery = parsed._replace(fragment = "", query="").geturl()
@@ -266,22 +229,35 @@ def removePath(url):
 def save_progress():
     """ Stores all the data from scraped URLs to save the progress in case program is stopped """
     with open("crawled.pickle", "wb") as f:
-        pickle.dump((commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes, URLCrawlsCount), f)
+        pickle.dump((commonWords, uniqueURLs, robots_cache, sim_hashes, URLCrawlsCount), f)
 
 
 def load_progress(restart):
     """ Loads all the data from previous scraped URLs"""
-    global commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes, URLCrawlsCount
+    global commonWords, uniqueURLs, robots_cache, sim_hashes, URLCrawlsCount
     if restart: # If crawler is restarted all data will be reset
         return
     try:
         with open("crawled.pickle", "rb") as f:
-            commonWords, uniqueURLs, robots_cache, longest_page, sim_hashes , URLCrawlsCount = pickle.load(f)
+            commonWords, uniqueURLs, robots_cache, sim_hashes , URLCrawlsCount = pickle.load(f)
     except FileNotFoundError:
         # If the file doesn't exist
         commonWords = {}
         uniqueURLs = set()
         robots_cache = {}
-        longest_page = ("", 0)
         sim_hashes = set()
         URLCrawlsCount= dict()
+
+
+######################################################################
+# You can modify this method to parse the page however you want.
+####################################################################
+def parse(resp):
+    """ Parse the web page """
+    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+        # read the parsed content and check for duplication
+    content = soup.get_text(separator=' ',strip=True)
+    add_words(tokenize(content))
+
+    # download content is json format
+    download_page(resp.raw_response.url, soup)
