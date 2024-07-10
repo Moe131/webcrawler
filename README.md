@@ -1,14 +1,19 @@
 #  Web Crawler  - UCI project
 
-This Python web crawler is designed to crawl the subdomain of University of California, Irvine (UCI) website and websites of different schools of UCI. This crawler respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
-Furthermore, each crawled page will downloaded and  saved in a json file in data folder on your system.
+This Python web crawler is designed to crawl the web and downloading the content of each crawled page. This crawler respects the politeness delay for each site and checks if crawling is allowed using robots.txt. Plus it finds the top 50 most frequently occurring words in the crawled content and saves them in summary.txt
+Furthermore, each crawled page will downloaded and saved in a json file in data folder on your system.
 
 # Features:
-Crawls the UCI schools websites to gather textual content.
-Processes the content to extract words.
+Crawls web and downlaods each web page.
+
+Processes the content to extract new links.
+
 Avoid traps or loops
+
 Counts the occurrence of each word.
+
 Identifies the top 50 most frequent words.
+
 Outputs the results to summary.txt.
 
 # Dependencies
@@ -29,26 +34,34 @@ python -m pip install -r packages/requirements.txt
 
 # Run the crawler
 
-### step 1: provide your seed urls separated by comma in config.ini file :
+ ## step 1: Configure the crawler by updating config.ini file :
+
+
+- provide your seed urls separated by comma
 
 ```
 SEEDURL = https://www.ics.uci.edu,https://www.cs.uci.edu  
 ```
 
-### step 2: Run the following command
+- If you want to allow all urls to be crawled, inside config.ini set CRAWLALL to TRUE. Otherwise, only URLs that begin with the seed URLs will be crawled.
+
+```
+CRAWLALL = TRUE
+```
+- You can change the time wait in seconds between each request.
+
+```
+POLITENESS = 0.5
+```
+
+ ## Step 2: Run the crawler by running the following command
 
 ```
 python3 launch.py
 ```
 
-  If you wish to restart the crawler, run :
+If you wish to restart the crawler, run :
 ```
 python3 launch.py --restart
 ```
-
-  * If you want to allow all urls to be crawled, inside config.ini set 
-```
-CRAWLALL = TRUE
-```
-  Otherwise, only URLs that begin with the seed URLs will be crawled.
 
