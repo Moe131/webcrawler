@@ -259,8 +259,8 @@ def download_page(url, soup):
     # Ensure the data directory exists
     os.makedirs('data', exist_ok=True)
     # Extract title and content
-    title = soup.find("title").get_text(strip=True) if soup.find("title") else url
-    data = {'url': url, 'title': title, 'content': soup.get_text(strip=True)}
+    title = soup.find("title").get_text(separator=' ',strip=True) if soup.find("title") else url
+    data = {'url': url, 'title': title, 'content': soup.get_text(separator=' ',strip=True)}
     # Save the JSON data to a file
     url = url.lstrip("https://").rstrip("/").replace("/","-")
     with open(f'data/{url}.json', 'w') as f:
